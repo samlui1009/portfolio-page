@@ -1,0 +1,11 @@
+.grid-container {    
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 95%;
+    margin: 0 auto;
+    /* Used for horizontally centering block-level elements, especially */
+    /* When a max-width is present */
+}

@@ -1,0 +1,135 @@
+.thank-you-container {
+    display: flex;
+    /* margin-top: 30px; */
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    /* We do align-items, NOT justify-content  */
+    /* Because justify-content is for the MAIN axis (Across) */
+    /* Whereas align-items is for the COLUMN */
+    /* Flexbox also only aligns the elements, NOT the text inside them */
+    /* What we're doing here is: "Stack all child elements vertically, */
+    /* And then, center EACH entire box horizontally */
+}
+
+.contact-title {
+    font-size: 6rem;
+}
+
+.paragraph-1 {
+    width: 900px;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    /* By default: All paragraphs are text-align left */
+}
+
+.paragraph-2 {
+    width: 900px;
+    text-align: center;
+    /* Already works and is aligned center */
+    font-size: 2.5rem;
+    margin-bottom: 45px;
+}
+
+.contact-me-photo {
+    border-radius: 25%;
+    width: 500px;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+.ext-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-buttons {
+    display: flex;
+    margin-bottom: 25px;
+    padding: 18px;
+    font-size: 2.0rem;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 95%;
+    justify-content: flex-start;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.icon {
+    margin-top: 5px;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+
+.link-buttons:hover {
+    background-color: rgba(235, 195, 160, 0.947);
+}
+
+.link-buttons:active {
+    background: rgba(194, 155, 120, 0.947);
+}
+
+.contact-form {
+    width: 600px;
+    min-height: 75vh;
+    display: flex;
+    border: 10px black;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.input-box {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box label {
+    font-size: 2.5rem;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.field, .msg-field {
+    padding: 15px;
+    font-size: 2.0rem;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 90%;
+  }
+
+.msg-field {
+    min-height: 50vh;
+    resize: both;
+}
+
+.send-msg {
+    margin-top: 50px;
+    border: white;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 2.0rem;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.send-msg:hover {
+    background-color: rgba(235, 195, 160, 0.947);
+}
+
+.send-msg:active {
+    background: rgba(194, 155, 120, 0.947);
+}
+
+.send-msg-section {
+    margin-top: 50px;
+    font-size: 3.0rem;
+    text-decoration: underline;
+}
+

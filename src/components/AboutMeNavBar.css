@@ -1,0 +1,49 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+    width: 100%;
+    border-style: solid;
+    border-radius: 2rem;
+    background-color: #beadad;
+    border-color: #beadad;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.legend {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    font-size: 2rem;
+    color: #5d4a4a;
+}
+
+.link {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #5d4a4a;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Tutorial taken here
+https://www.30secondsofcode.org/css/s/hover-underline-animation/ */
+

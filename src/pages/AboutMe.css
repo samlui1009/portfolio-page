@@ -1,0 +1,212 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    border: 3px none;
+    border-radius: 18px;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%); 
+}
+
+.education .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+}
+
+.education .school-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.education .school {
+    padding-top: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.education .program {
+    padding-left: 1.5rem;
+    font-size: 2rem;
+    line-height: 1.5rem;
+}
+
+.education .logo {
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.education p {
+    padding-left: 2.5rem;
+    line-height: 1.75rem;
+}
+
+.technical-skills {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    border: 3px none;
+    border-radius: 18px;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%); 
+}
+
+.technical-skills .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+}
+
+.technical-skills .logo {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.technical-skills .type {
+    font-size: 2.5rem;
+}
+
+.technical-skills .list {
+    font-size: 2rem;
+    padding-left: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.professional-exp {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    border: 3px none;
+    border-radius: 18px;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%); 
+}
+
+.professional-exp .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+}
+
+.professional-exp .org {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+.professional-exp .job-info {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    padding-top: 5px;
+}
+
+.professional-exp .job-info p {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.professional-exp .tasks {
+    padding-left: 1.5rem;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 2rem;
+}
+
+.volunteering {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    border: 3px none;
+    border-radius: 18px;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%); 
+}
+
+.volunteering .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+}
+
+.volunteering .org {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+}
+
+.volunteering .job-info {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    padding-top: 5px;
+}
+
+.volunteering .job-info p {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.volunteering .tasks {
+    padding-left: 1.5rem;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 2rem;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    border: 3px none;
+    border-radius: 18px;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%); 
+}
+
+.hobbies-intro-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+}
+
+.hobbies-intro-section p{
+    font-size: 2rem;
+}
+
+.hobbies-intro-section .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+}
+
+.hobbies .photo-album {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.divider {
+    border-radius: 5px;
+    border-top: 2px solid;
+}
+
+/* https://stackoverflow.com/questions/68591441/how-to-show-half-transparent-div-in-react */

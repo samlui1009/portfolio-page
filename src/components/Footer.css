@@ -1,0 +1,13 @@
+/* Reference to fix the "sticky footer" issue -https://www.youtube.com/watch?v=pggIVY5eOGM */
+
+.footer {
+    background-color: #beadad;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    z-index: 999;
+    margin-top: auto;
+}
+

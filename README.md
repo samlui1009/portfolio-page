@@ -48,21 +48,37 @@
 ## Sections
 
 ### Home
+
+![HomePage](https://github.com/user-attachments/assets/c7e9a9d2-d3ce-4b44-91b3-a5efe3b11e79)
+
 <p>The Home page features a type-like animation that displays a welcome message to the viewer. To the left of the Home page features my profile picture, alongside a summary card that describes what I currently do, my previous career and my motivations for joining the tech industry.</p>
 
 ### About Me 
-<p>The About Me page displays all relevant information pertaining to my education, my technical skills, prior professional experience in the healthcare sector, community service and hobbies and interests. Each sub-section was created separately in a resume-like format. The most unique aspect to the About Me page is the photo gallery, which features an assortment of my personal hobbies, such as photography, crochet, restaurant-hopping and travel.
-Positioned at the top of the About Me page is a navigation bar for easier scrolling between sections.</p>
+
+![AboutMe-Education](https://github.com/user-attachments/assets/1cd489d9-01b5-464e-90fd-9b7ec04be069)
+
+<p>The About Me page displays all relevant information pertaining to my education, my technical skills, prior professional experience in the healthcare sector, community service and hobbies and interests. Each sub-section was created separately in a resume-like format. Positioned at the top of the About Me page is a navigation bar for easier scrolling between sections.</p>
+
+![AboutMe-PhotoAlbum](https://github.com/user-attachments/assets/836daf84-ab3b-4b9e-b9f0-f8593a58b2a7)
+<p>The most unique aspect to the About Me page is the photo gallery, which features an assortment of my personal hobbies, such as photography, crochet, restaurant-hopping and travel.</p>
 
 ### Resume & GitHub
 <p>Clicking on Resume will open up a new tab for the user. It links to a detailed PDF copy of my resume. It summarizes my education, more details pertaining to my technical projects, previous professional experiences and relevant responsibilities, community involvement and technical skills.</p>
 <p>Clicking on GitHub will open up a new tab for the user, linking directly to my GitHub.</p>
 
 ### Projects
+![Projects-RowOne](https://github.com/user-attachments/assets/e11504b4-190d-44e9-8a86-62c6f805ace6)
+
 <p>The Projects page features a gallery view of the latest iterations for all of my technical projects that I have worked on so far. Each project features its own card, which includes a relevant photo to the starting menu or home page of the project. The card also contains information on the project type (Academic or hackathon-related). It also includes a section directly underneath the project description that includes logos of the relevant tech stacks being used. Finally, there is a button positioned at the bottom of each project card that links to the relevant GitHub repository.</p>
 
 ### Contact Me
-<p>The Contact Me page features a thank-you message to the user for visiting the website. Additional buttons were also created on the page, which links to my personal e-mail, my DevPost and my LinkedIn, respectively. At the bottom of the page is a functional Message Form. Here, it prompts the user to enter their name, e-mail address and a message of their choosing.</p>
-<p>As mentioned, EmailJS was used to permit client-side email sending without the need for the development of a backend server and its seamless integration with React. It has been tested for functionality: any messages sent through the form will trigger a notification e-mail to be sent to my personal inbox.</p>
+
+![ContactMe-Top](https://github.com/user-attachments/assets/4479e0aa-dd24-42ea-ba30-d3b72a0ac7b1)
+
+<p>The Contact Me page features a thank-you message to the user for visiting the website. Additional buttons were also created on the page, which links to my personal e-mail, my DevPost and my LinkedIn, respectively.</p> 
+
+![ContactMe-ResizableMessageForm](https://github.com/user-attachments/assets/f7d1d99a-f976-4418-bf89-4c1ad72b4a8e)
+
+<p>At the bottom of the page is a functional Message Form. Here, it prompts the user to enter their name, e-mail address and a message of their choosing. As mentioned, EmailJS was used to permit client-side email sending without the need for the development of a backend server and its seamless integration with React. It has been tested for functionality: any messages sent through the form will trigger a notification e-mail to be sent to my personal inbox.</p>
 
 ## Instructions for Running Locally

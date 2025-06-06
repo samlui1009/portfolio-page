@@ -82,3 +82,15 @@
 <p>At the bottom of the page is a functional Message Form. Here, it prompts the user to enter their name, e-mail address and a message of their choosing. As mentioned, EmailJS was used to permit client-side email sending without the need for the development of a backend server and its seamless integration with React. It has been tested for functionality: any messages sent through the form will trigger a notification e-mail to be sent to my personal inbox.</p>
 
 ## Instructions for Running Locally
+
+Install the latest version of node.js (JavaScript runtime server)
+Check the version using the command
+node --version
+Install the latest version of npm (JavaScript package manager)
+Check the version using the command
+npm --version
+Clone the repository from github by typing in the command line, either through HTTPS or SSH
+Install any dependencies by using the command
+npm install
+The web application can be run on your local server by typing the command
+npm run dev

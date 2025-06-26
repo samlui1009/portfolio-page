@@ -42,14 +42,15 @@ function AboutMe() {
                     <p className="date">September 2024 - Present</p>
                 </div>
                 <p>Expected Graduation Date: May 2027</p>
-                <p>UBC Science Co-op Participant, UBC BCS Tri-Mentorship Program Participant</p>
+                <p>Relevant Coursework: Basic Algorithms & Data Structures, Software Construction, Introduction to Data Science</p>
+                <p>Extracurriculars: UBC BCS 2025 Cohort Support Hub Mentor, UBC Science Co-op Participant, UBC BCS Tri-Mentorship Program Participant</p>
 
                 <h3 className="school">British Columbia Institute of Technology</h3>
                 <div className="school-info">
                     <p className="program">Advanced Diploma in Clinical Genetics Technology</p>
                     <p className="date">August 2020 - October 2021</p>
                 </div>
-                <p>Graduated with Distinction (88%)</p>
+                <p>Awards & Achievements: Graduated with Distinction (88%)</p>
                 <p>Certified Clinical Genetics Technologist under the Canadian Society for Medical Laboratory Science</p>
 
                 <h3 className="school">Simon Fraser University</h3>
@@ -57,9 +58,9 @@ function AboutMe() {
                     <p className="program">Bachelor of Health Sciences - Life Sciences Concentration</p>
                     <p className="date">September 2011 - December 2017</p>
                 </div>
-                <p>Dean's Honor Roll - Fall 2015</p>
-                <p>SFU Work Integrated Learning Co-op Participant</p>
-                <p>SFU-UBC Co-op Japan Participant (2016 - 2017)</p>
+                <p>Awards & Achievements: Dean's Honor Roll - Fall 2015</p>
+                <p>Relevant Coursework: Introduction to Biostatistics for Health Sciences, Human Pathophysiology, Cell Pathophysiology Laboratory, Seminar in Molecular Mechanisms of Epigenetics</p>
+                <p>Extracurriculars: SFU Work Integrated Learning Co-op Participant, SFU-UBC Co-op Japan Participant (2016 - 2017)</p>
             </div>
             </section>
 
@@ -67,11 +68,11 @@ function AboutMe() {
             <div className="technical-skills">
                 <h2 className="title">Technical Skills<FaComputer className="logo"></FaComputer></h2>
                 <h3 className="type">Programming Languages</h3>
-                <p className="list">HTML, CSS, Java, Python, SQL (PostgreSQL), R</p>
+                <p className="list">HTML5, CSS3, JavaScript, Java, Python, SQL, R</p>
                 <h3 className="type">Frameworks and Libraries</h3>
-                <p className="list">React.js, JSwing, JUnit Jupiter, Tidyverse</p>
+                <p className="list">React.js, Node.js/Express.js, Java Swing, JUnit Jupiter, Tidyverse (including ggplot2)</p>
                 <h3 className="type">Developer Tools</h3>
-                <p className="list">Git, GitHub, Vite, Node.js (build environment), MongoDB, JSON, Visual Studio Code, Jupyter, Filmora</p>
+                <p className="list">Git, GitHub, Vite, MongoDB, JSON, Visual Studio Code, Jupyter Notebooks, Filmora</p>
                 <h3 className="type">Laboratory-Related Technologies</h3>
                 <p className="list">Leica CytoVision Automated Cell Imaging System, SeqPilot, GeneMapper, SHIRE (LIMS), SunQuest, Promega Maxwell RSC48</p>
             </div>

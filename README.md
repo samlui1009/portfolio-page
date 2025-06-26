@@ -83,14 +83,33 @@
 
 ## Instructions for Running Locally
 
-Install the latest version of node.js (JavaScript runtime server)
-Check the version using the command
-node --version
-Install the latest version of npm (JavaScript package manager)
-Check the version using the command
-npm --version
-Clone the repository from github by typing in the command line, either through HTTPS or SSH
-Install any dependencies by using the command
-npm install
-The web application can be run on your local server by typing the command
-npm run dev
+Install the latest version of Node.js (JavaScript runtime server)\
+Check the version using the command\
+`node --version`\
+Install the latest version of npm (JavaScript package manager)\
+Check the version using the command\
+`npm --version`\
+Clone the repository from github by typing in the command line, either through HTTPS or SSH\
+Install any dependencies by using the command\
+`npm install`\
+The web application can be run on your local server by typing the command\
+`npm run dev`
+
+## Self-Reflections and Learnings From This Project 
+<h5>CSS3</h5>
+<p>There is no need to import statements for assets if they are for a CSS3 file, as it will not work.</p>
+<p>A reminder that justify-content is for the main horizontal axis, whereas align-items is for the column/vertical. Flexbox capabilities including aligning elements specifically, but NOT the text with them. </p>
+<h5>TypedJS</h5>
+<h5>React-Router-DOM</h5>
+<p>A useful npm package, enabling dynamic routing in a web application; functions for displaying pages and for navigation purposes for users WITHOUT reloading, making switching pages easy and dynamic; fully-featured client and server-side routing that is URL-based for React, also permits nested routing so complex layouts can be achieved</p>
+<p>Import statements must be included prior to being utilized in the JSX code, errors can arise as the route rendering is no longer possible</p>
+
+## Resources & References Consulted
+<ul>
+  <li>https://www.geeksforgeeks.org/reactjs/what-is-react-router-dom</li>
+  <li>https://www.30secondsofcode.org/css/s/hover-underline-animation/</li>
+  <li>To fix the "sticky footer":  https://www.youtube.com/watch?v=pggIVY5eOGM</li>
+  <li>https://www.shecodes.io/athena/3020-how-to-use-hover-to-expand-a-button-in-css#:~:text=In%20CSS%2C%20you%20can%20make,can%20use%20the%20%3Ahover%20selector.&text=In%20this%20example%2C%20the%20transform,the%20mouse%20hovers%20over%20it</li>
+  <li>https://stackoverflow.com/questions/19469495/css-slow-hover-effect</li>
+  <li>https://stackoverflow.com/questions/60094612/how-would-i-push-the-button-to-the-bottom-of-the-css-flexbox-in-such-case</li>
+</ul>

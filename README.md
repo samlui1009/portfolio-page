@@ -99,7 +99,6 @@ The web application can be run on your local server by typing the command\
 <h5>CSS3</h5>
 <p>There is no need to import statements for assets if they are for a CSS3 file, as it will not work.</p>
 <p>A reminder that justify-content is for the main horizontal axis, whereas align-items is for the column/vertical. Flexbox capabilities including aligning elements specifically, but NOT the text with them. </p>
-<h5>TypedJS</h5>
 <h5>React-Router-DOM</h5>
 <p>A useful npm package, enabling dynamic routing in a web application; functions for displaying pages and for navigation purposes for users WITHOUT reloading, making switching pages easy and dynamic; fully-featured client and server-side routing that is URL-based for React, also permits nested routing so complex layouts can be achieved</p>
 <p>Import statements must be included prior to being utilized in the JSX code, errors can arise as the route rendering is no longer possible</p>

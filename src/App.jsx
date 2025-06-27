@@ -8,6 +8,7 @@ import Projects from './pages/Projects.jsx';
 import Contact from './pages/Contact.jsx';
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
+import ThankYou from './pages/ThankYou.jsx';
 
 // We CANNOT be missing any import statements!
 // All components MUST be imported before they can be used in the JSX code
@@ -25,6 +26,7 @@ function App() {
                     <Route path="/aboutme" element={<AboutMe />} />
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/contactme" element={<Contact />} />
+                    <Route path="/ThankYou" element={<ThankYou />} />
                     <Route path="*" element={<Home />} />
                     {/* Path informs which page component to show */}
                     {/* Think of it like amazon.com -> amazon.com/cart */}

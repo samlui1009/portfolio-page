@@ -5,6 +5,7 @@ import PLAI from '../assets/plai-logo.png';
 import Enduro from '../assets/enduro.jpg';
 import DailySips from '../assets/dailysips-logo.png'
 import Portfolio from '../assets/portfolio-logo.png';
+import ScrollToTop from './ScrollToTop.jsx'
 
 import { SiMongodb, SiJupyter, SiJunit5, SiVite, SiCss3, SiJson, SiJavascript } from 'react-icons/si';
 import { FaReact, FaJava } from 'react-icons/fa';
@@ -36,7 +37,7 @@ function ProjectGrid() {
             </ProjectCard>
 
             <ProjectCard
-            title = "Sam's Portfolio Page"
+            title = "My Portfolio Page"
             type = "Personal"
             image = { Portfolio }
             description = "Leveraging resources like StackOverflow, w3schools and YouTube tutorials, I independently
@@ -71,6 +72,7 @@ function ProjectGrid() {
             </ProjectCard>
 
         </div>
+        <ScrollToTop></ScrollToTop>
         </>
     );
 }

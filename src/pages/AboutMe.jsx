@@ -2,6 +2,7 @@ import './AboutMe.css';
 import { useRef } from "react";
 import PhotoAlbum from '../components/PhotoAlbum.jsx';
 import AboutMeNavBar from '../components/AboutMeNavBar.jsx';
+import ScrollToTop from '../components/ScrollToTop.jsx';
 
 import { IoSchool, IoCalendarNumber } from 'react-icons/io5';
 import { FaComputer, FaLocationDot } from "react-icons/fa6";
@@ -179,6 +180,7 @@ function AboutMe() {
             </section>
 
         </div>
+        <ScrollToTop></ScrollToTop>
         </>
     )
 }

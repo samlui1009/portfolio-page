@@ -4,6 +4,7 @@ import './Contact.css';
 import { FaLinkedin } from 'react-icons/fa';
 import { SiDevpost } from 'react-icons/si';
 import { IoIosMail } from 'react-icons/io';
+import ScrollToTop from '../components/ScrollToTop.jsx';
 import Image from '../assets/workspace_background.png';
 
 // Reference code for EmailJS from here:
@@ -73,6 +74,7 @@ function Contact() {
         <button type="submit" className="send-msg">Send Message</button>
         </form>
         </div>
+        <ScrollToTop></ScrollToTop>
         </>
 
         // Draft that pops up in Outlook is how EmailJS interacts with

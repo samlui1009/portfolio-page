@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 import { FaLinkedin } from 'react-icons/fa';
@@ -13,6 +14,7 @@ import Image from '../assets/workspace_background.png';
 
 function Contact() {
     const form = useRef();
+    const navigate = useNavigate();
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -26,6 +28,7 @@ function Contact() {
         .then(
             () => {
                 console.log('SUCCESS!');
+                navigate('/ThankYou');
             },
             (error) => {
                 console.log('FAILED...', error.test);

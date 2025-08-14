@@ -8,15 +8,18 @@ import Food1 from '../assets/Food/food-1.jpg';
 import Food2 from '../assets/Food/food-3.jpg';
 import Food3 from '../assets/Food/food-7.jpg';
 import Food4 from '../assets/Food/food-13.jpg';
+import Food5 from '../assets/Food/food-14.jpg';
 
 import Scenery1 from '../assets/Scenery/scenery-1.jpg';
 import Scenery2 from '../assets/Scenery/scenery-4.jpg';
+import Scenery3 from '../assets/Scenery/scenery-6.jpg';
 
 import Travel1 from '../assets/Travel/travel-1.jpg';
 import Travel2 from '../assets/Travel/travel-2.jpg';
 import Travel3 from '../assets/Travel/travel-5.jpg';
 import Travel4 from '../assets/Travel/travel-8.jpg';
 import Travel5 from '../assets/Travel/travel-9.jpg';
+import Travel6 from '../assets/Travel/travel-10.jpg';
 
 
 const photos = [
@@ -35,7 +38,10 @@ const photos = [
     { src: Travel5, width: 600, height: 700}, 
     { src: Crochet2, width: 500, height: 600},
     { src: Food4, width: 200, height: 250},
-    { src: Crochet5, width: 200, height: 250}
+    { src: Crochet5, width: 200, height: 250},
+    { src: Food5, width: 250, height: 300},
+    { src: Scenery3, width: 200, height: 300},
+    { src: Travel6, width: 600, height: 700}
 ];
   
 export default photos;

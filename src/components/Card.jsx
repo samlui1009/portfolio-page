@@ -13,10 +13,11 @@ function Card() {
                 <p>💻 I am a current 3rd-year Bachelor of Computer Science (BCS) student, studying
                     at the University of British Columbia in Vancouver, B.C.
                 </p>
-                <p>🧬 I'm a former genetics technologist, aspiring software developer and data science enthusiast.
+                <p>🧬 I'm a former genetics technologist, aspiring software developer, data science enthusiast and 
+                    incoming Information Technology Analyst Co-op with Shared Services Canada (Fall 2025).
                 </p>
                 <p>💭 My exposure into the inefficiencies experienced within public healthcare had motivated 
-                    my career transition. Now, I hope to bring innovative, scalable solutions to the rapidly evolving 
+                    my career transition. My current career goals are to eventually bring innovative, scalable solutions to the rapidly evolving 
                     digital health space. 
                 </p>
                 </div>

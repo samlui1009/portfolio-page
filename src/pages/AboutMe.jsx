@@ -69,11 +69,17 @@ function AboutMe() {
             <div className="technical-skills">
                 <h2 className="title">Technical Skills<FaComputer className="logo"></FaComputer></h2>
                 <h3 className="type">Programming Languages</h3>
-                <p className="list">HTML5, CSS3, JavaScript, Java, Python, SQL, R</p>
+                <p className="list">HTML5, CSS3, JavaScript, Java, C++, Python, SQL, R</p>
                 <h3 className="type">Frameworks and Libraries</h3>
-                <p className="list">React.js, Node.js/Express.js, Java Swing, JUnit Jupiter, Tidyverse (including ggplot2)</p>
+                <p className="list">React.js, Recharts, Java Swing, JUnit Jupiter, Tidyverse (including ggplot2)</p>
+                <h3 className="type">Backend</h3>
+                <p className="list">Spring Boot (+ Spring Security, Spring AI), Node.js/Express.js</p>
+                <h3 className="type">Databases</h3>
+                <p className="list">PostgreSQL, H2 Database Engine, MongoDB Atlas</p>
                 <h3 className="type">Developer Tools</h3>
-                <p className="list">Git, GitHub, Vite, MongoDB, JSON, Visual Studio Code, Jupyter Notebooks, Filmora</p>
+                <p className="list">Git, GitHub, Vite, Postman, Visual Studio Code, Jupyter Notebooks, Canva, Figma, Filmora</p>
+                <h3 className="type">Cloud Deployment</h3>
+                <p className="list">Netlify</p>
                 <h3 className="type">Laboratory-Related Technologies</h3>
                 <p className="list">Leica CytoVision Automated Cell Imaging System, SeqPilot, GeneMapper, SHIRE (LIMS), SunQuest, Promega Maxwell RSC48</p>
             </div>

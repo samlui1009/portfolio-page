@@ -1,20 +1,31 @@
 import './ProjectGrid.css';
 import ProjectCard from '../components/ProjectCard.jsx';
-import PantryPal from '../assets/pantrypal.jpg';
-import PLAI from '../assets/plai-logo.png';
-import Enduro from '../assets/enduro.jpg';
-import DailySips from '../assets/dailysips-logo.png'
-import Portfolio from '../assets/portfolio-logo.png';
+import PantryPal from '../assets/Individual-Project-Assets/pantrypal.jpg';
+import PLAI from '../assets/Individual-Project-Assets/plai-logo.png';
+import Enduro from '../assets/Individual-Project-Assets/enduro.jpg';
+import DailySips from '../assets/Individual-Project-Assets/dailysips-logo.png'
+import Portfolio from '../assets/Individual-Project-Assets/portfolio-logo.png';
+import SipLy from '../assets/Individual-Project-Assets/SipLy-login.png';
 import ScrollToTop from './ScrollToTop.jsx'
 
-import { SiMongodb, SiJupyter, SiJunit5, SiVite, SiCss3, SiJson, SiJavascript } from 'react-icons/si';
+import { SiMongodb, SiJupyter, SiJunit5, SiVite, SiCss3, SiJson, SiJavascript, SiSpringboot, SiPostman } from 'react-icons/si';
 import { FaReact, FaJava } from 'react-icons/fa';
+import { RiH2 } from 'react-icons/ri';
 
 
 function ProjectGrid() {
     return (
         <>
         <div className="grid-container">
+            <ProjectCard
+            title="SipLy"
+            type = "Personal"
+            image = { SipLy }
+            description = "An elevated version of DailySips! SipLy is an interactive daily beverage tracker. Displayed as a dynamic dashboard, SipLy aims to be a gamified way for users to make healthier beverage decisions for their daily lives. "
+            url = "https://github.com/samlui1009/SipLy"
+            stack = {[FaReact, SiVite, SiSpringboot, RiH2, SiPostman ]}>    
+
+            </ProjectCard>    
             <ProjectCard
             title = "DailySips"
             type = "Academic"

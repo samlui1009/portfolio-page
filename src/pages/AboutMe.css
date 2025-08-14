@@ -199,6 +199,10 @@
     font-size: 3.5rem;
 }
 
+.hobbies-description {
+    text-align: center;
+}
+
 .hobbies .photo-album {
     width: 100%;
     margin-top: 2rem;

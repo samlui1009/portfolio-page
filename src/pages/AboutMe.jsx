@@ -83,16 +83,29 @@ function AboutMe() {
             <div className="professional-exp"> 
                 <h2 className="title">Professional Experience<SiReaddotcv></SiReaddotcv></h2>
                 <div>
+                    <h3 className="org">Shared Services Canada - Information Technology Analyst Co-op Student</h3>
+                    <div className="job-info">
+                        <p><FaLocationDot className="logo"></FaLocationDot>Vancouver, British Columbia</p>
+                        <p><IoCalendarNumber className="logo"></IoCalendarNumber>August 2025 - Present</p>
+                    </div>
+                    <ul className="tasks">
+                        <li>Thrilled to be joining Shared Services Canada in Vancouver, B.C. for a 4-month internship as an incoming I.T. Analyst Co-op! Through this experience, I hope to expand and develop my troubleshooting expertise, 
+                            particularly in the realm of handling software and hardware.
+                        </li>
+                    </ul>
+                    <hr className="divider"></hr>
                     <h3 className="org">Provincial Health Services Authority - Clinical Genetics Technologist</h3>
                     <div className="job-info">
                     <p><FaLocationDot className="logo"></FaLocationDot>Vancouver, British Columbia</p>
                     <p><IoCalendarNumber className="logo"></IoCalendarNumber>November 2021 - August 2024</p>
                     </div>
                     <ul className="tasks">
-                        <li>Performed high-volume culturing and analysis of biohazardous patient specimens using advanced molecular techniques; collaborated in a multidisciplinary healthcare team to deliver compassionate care through delivery of results before established turnaround times </li>
-                        <li>Operated, maintained and troubleshooted diagnostic laboratory equipment by following standardized operating procedures; liaised with vendors and IT teams to minimize downtime in a fast-paced, time-sensitive environment</li>
-                        <li>Mentored incoming junior technologists and practicum students, promoting a supportive learning environment</li>
+                        <li>Coordinated complex genetic testing workflows by collaborating with clinical teams to ensure timely delivery of patient results</li>
+                        <li>Worked with IT and external vendors to troubleshoot LIS/equipment software/hardware issues, reducing laboratory downtime to maintain workflow continuity</li>
+                        <li>Supported onboarding and training of practicum students and new technologists, fostering technical confidence</li>
                     </ul>
+                    
+
                     <hr className = "divider"></hr>
                     <h3 className="org">Children's Hospital of Eastern Ontario - Cytogenetics Practicum Student</h3>
                     <div className="job-info">
@@ -100,10 +113,9 @@ function AboutMe() {
                     <p><IoCalendarNumber></IoCalendarNumber>March 2021 - July 2021</p>
                     </div>
                     <ul className="tasks">
-                        <li>Learned and applied cytogenetic theory and methods by shadowing clinical instructors for patient specimens requiring genetic testing (bone marrow aspirate, peripheral blood, prenatal specimens, solid tumours)</li>
-                        <li>Performed and analyzed molecular-based techniques (QF-PCR/RAD, microarray) for practice cases with accuracy</li>
-                        <li>Executed CytoVision to identify and report abnormal cytogenetic findings</li>
+                        <li>5-month practicum completed with the Genetics Diagnostics Laboratory (Blood/prenatal/oncology/tumour testing, G/C-banding, FISH, microarray, rapid aneuploidy detection)</li>
                     </ul>
+
                     <hr className = "divider"></hr>
                     <h3 className="org">Medipure Pharmaceuticals - Research & Administrative Assistant</h3>
                     <div className="job-info">
@@ -111,9 +123,9 @@ function AboutMe() {
                     <p><IoCalendarNumber></IoCalendarNumber>May 2018 - February 2020</p>
                     </div>
                     <ul className="tasks">
-                        <li>Performed cell-based assays to evaluate the efficacy of novel drugs for anxiety, pain, and psoriasis within the Cell Biology team</li>
-                        <li>Mentored a summer research intern on essential cell culture techniques, data analysis, literature searching, and lab report writing skills</li>
-                        <li>Served as the Employee Health and Safety Representative, documenting health and safety meeting notes, presenting suggestions and feedback to management for workplace safety, and revising SOP drafts to meet WorkSafeBC compliance</li>
+                        <li>Designed and conducted cell-based assays to evaluate drug efficacy for anxiety, pain and psoriasis, successfully pursuing research goals</li>
+                        <li>Trained a summer research intern on essential cell culture techniques, data analysis, literature search, and lab report documentation, ensuring mastery of all relevant skills</li>
+                        <li>Served as the Employee Health and Safety Representative, documenting meeting notes, proposing safety improvements to management, and revising standardized operating procedures to meet WorkSafeBC compliance</li>
                     </ul>
                     <hr className = "divider"></hr>
                     <h3 className="org">Kao Corporation - Research Assistant</h3>
@@ -122,9 +134,8 @@ function AboutMe() {
                     <p><IoCalendarNumber></IoCalendarNumber>August 2016 - April 2017</p>
                     </div>
                     <ul className="tasks">
-                        <li>Planned and executed cell culture experiments (Western Blotting, qPCR, RT-PCR) with primary human keratinocytes and melanocytes, successfully identifying novel genes and proteins involved in autophagy regulation for skin care research advancement</li>
-                        <li>Collaborated harmoniously in a cross-cultural team, enhancing Japanese language skills to adapt to the work environment</li>
-                        <li>Presented a comprehensive research project presentation to Kao’s Biological Sciences Laboratory, ensuring clear communication to an audience of over 60 members</li>
+                        <li>Conducted cell culture experiments (Western Blotting, qPCR, RT-PCR) with primary human keratinocytes and melanocytes, contributing to the successful identification of novel genes/proteins linked to autophagy regulation in skincare research </li>
+                        <li>Collaborated harmoniously within a Japanese research team, adapting to a new work culture by strengthening Japanese language skills and cross-cultural communication; presented a final project presentation to 60+ laboratory and board members</li>
                     </ul>
                     <hr className = "divider"></hr>
                     <h3 className="org">Agriculture & Agri-Food Canada - Plant Science Research Co-op Student</h3>
@@ -133,10 +144,8 @@ function AboutMe() {
                     <p><IoCalendarNumber></IoCalendarNumber>October 2014 - April 2015</p>
                     </div>
                     <ul className="tasks">
-                        <li>Assisted Dr. Sally Vail in the management and cultivation of rapeseed oil plants, optimizing plant health, growth conditions and seed quality through regular care and mildew prevention measures </li>
-                        <li>Conducted numerous cross-breeding experiments among different donor and recipient plants to produce seeds with the desired characteristics
-                        </li>
-                        <li>Performed daily quantitative data entry for flowering plants</li>
+                        <li>Managed a large collection of rapeseed oil plants for Dr. Sally Vail's research team, optimizing growth conditions and assisting with mildew prevention</li>
+                        <li>Conducted numerous cross-breeding experiments with quantitative data tracking to support trait selection efforts</li>
                     </ul>
                 </div>
             </div>
@@ -152,8 +161,7 @@ function AboutMe() {
                     <p><IoCalendarNumber></IoCalendarNumber>September 2024 - April 2025</p>
                     </div>
                     <ul className="tasks">
-                        <li>Instructed neurodivergent youth in various S.T.E.A.M.-related topics (Web development, Python) in a virtual, one-on-one setting, helping them understand curriculum material while promoting the development of critical thinking and problem-solving skills</li>
-                        <li>Provided clear, concise follow-up notes to parents and guardians to notify progress</li>
+                        <li>Taught beginner and intermediate Python/web dev to neurodivergent youth, adapting lessons to different learning needs and boosting student engagement</li>
                     </ul>
                     <hr className = "divider"></hr>
                     <h3 className="org">Children's Health Policy Centre - Research Assistant</h3>
@@ -162,8 +170,8 @@ function AboutMe() {
                     <p><IoCalendarNumber></IoCalendarNumber>May 2015 - August 2016</p>
                     </div>
                     <ul className="tasks">
-                        <li>Aided Dr. Andrea Gonzalez in the BC Healthy Connections Project, a randomized controlled trial of the Nurse-Family Partnership program, with quantitative Excel data entry for over 500 study participants, biological specimen sampling kit preparation and video-editing</li>
-                        <li>Supervised new trainees and interns with concise instruction and conducive feedback</li>
+                        <li>Contributed to a randomized controlled trial for the Nurse-Family Partnership Program with quantitative data entry (500+ participants), lab kit preparation, and video editing to support cross-team operations</li>
+                        <li>Trained and supported new interns with clear guidance and feedback, accelerating onboarding</li>
                     </ul>
                 </div>
             </div>
@@ -173,7 +181,7 @@ function AboutMe() {
             <div className="hobbies">
                 <div className="hobbies-intro-section">
                 <h2 className="title">Personal Interests<IoIosHappy></IoIosHappy></h2>
-                <p>Outside of building projects, coding and studying, I often invest my time in a wide array of hobbies. Check out some of the fun things I do below!</p>
+                <p className="hobbies-description">Outside of building projects, coding and studying, I often invest my time in a wide array of hobbies, such as trying new restaurants, crocheting plushies and coasters, taking beautiful pictures of nature and travelling (Tokyo, Kyoto, London, Amsterdam and San Francisco are some of my favourite cities!). Check out some of the fun things I do below!</p>
                 <div className="photo-album"><PhotoAlbum /></div>
                 </div>
             </div>

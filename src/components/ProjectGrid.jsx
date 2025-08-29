@@ -6,17 +6,29 @@ import Enduro from '../assets/Individual-Project-Assets/enduro.jpg';
 import DailySips from '../assets/Individual-Project-Assets/dailysips-logo.png'
 import Portfolio from '../assets/Individual-Project-Assets/portfolio-logo.png';
 import SipLy from '../assets/Individual-Project-Assets/SipLy-login.png';
+import AniMori from '../assets/Individual-Project-Assets/animori-logo.png';
 import ScrollToTop from './ScrollToTop.jsx'
 
-import { SiMongodb, SiJupyter, SiJunit5, SiVite, SiCss3, SiJson, SiJavascript, SiSpringboot, SiPostman } from 'react-icons/si';
+import { SiMongodb, SiJupyter, SiJunit5, SiVite, SiCss3, SiJson, SiJavascript, SiSpringboot, SiPostman, SiSqlite } from 'react-icons/si';
 import { FaReact, FaJava } from 'react-icons/fa';
 import { RiH2 } from 'react-icons/ri';
+import { IoLogoElectron } from "react-icons/io5";
 
 
 function ProjectGrid() {
     return (
         <>
         <div className="grid-container">
+            <ProjectCard
+            title="AniMori"
+            type = "Personal"
+            image = { AniMori }
+            description = "AniMori is a passion project, built off of my love for Japanese animation. Having no centralized way to rank my favourite shows or organize them by watch status, 
+            I designed an aesthetic, yet functional ElectronJS application that I believe is befitting for the needs of many anime fans around the world."
+            url = "https://github.com/samlui1009/animori"
+            stack = {[ IoLogoElectron, FaReact, SiVite, SiSqlite ]}>
+            </ProjectCard>
+
             <ProjectCard
             title="SipLy"
             type = "Personal"

@@ -71,7 +71,7 @@ function AboutMe() {
                 <h3 className="type">Programming Languages</h3>
                 <p className="list">HTML5, CSS3, JavaScript, Java, C++, Python, SQL, R</p>
                 <h3 className="type">Frameworks and Libraries</h3>
-                <p className="list">React.js, Recharts, Java Swing, JUnit Jupiter, Tidyverse (including ggplot2)</p>
+                <p className="list">React.js, ElectronJS, Recharts, Java Swing, JUnit Jupiter, Tidyverse (including ggplot2)</p>
                 <h3 className="type">Backend</h3>
                 <p className="list">Spring Boot (+ Spring Security, Spring AI), Node.js/Express.js</p>
                 <h3 className="type">Databases</h3>
@@ -161,6 +161,21 @@ function AboutMe() {
             <div className="volunteering">
                 <h2 className="title">Volunteering Experience<RiCommunityFill></RiCommunityFill></h2>
                 <div>
+                    <h3 className="org">UBC BU1DL - Junior Mentor (Selected)</h3>
+                    <div className="job-info">
+                    <p><FaLocationDot></FaLocationDot>Remote</p>
+                    <p><IoCalendarNumber></IoCalendarNumber>August 2025 - Present</p>
+                    <ul className="tasks">
+                        <li>Elated to be selected as a Junior Mentor for the BU1DL initiative! Through this program, I will be collaborating with 
+                            a Senior Mentor to help provide technical guidance and advice for 4 junior developers as they work together to 
+                            build and ship a working Minimum Viable Product within a 4-month duration. Through this, I hope to develop my 
+                            interpersonal communication skills, and learn a few things myself as a developer :)
+                        </li>
+                    </ul>
+                    </div>
+
+                    <hr className="divider"></hr>
+
                     <h3 className="org">The C.O.D.E. Initiative - Remote Volunteer Tutor</h3>
                     <div className="job-info">
                     <p><FaLocationDot></FaLocationDot>Remote</p>
@@ -169,7 +184,9 @@ function AboutMe() {
                     <ul className="tasks">
                         <li>Taught beginner and intermediate Python/web dev to neurodivergent youth, adapting lessons to different learning needs and boosting student engagement</li>
                     </ul>
+                    
                     <hr className = "divider"></hr>
+                    
                     <h3 className="org">Children's Health Policy Centre - Research Assistant</h3>
                     <div className="job-info">
                     <p><FaLocationDot></FaLocationDot>Vancouver, British Columbia</p>

@@ -59,22 +59,22 @@ function Contact() {
             <p>Message Form</p>
         </div>
         <form ref={form} onSubmit={sendEmail} className="contact-form">
-        <div className="input-box">
-            <label>Name</label>
-            <input type="text" name="user_name" className="field" placeholder="Enter your name" required />
-        </div>
-        <div className="input-box"> 
-            <label>Email Address</label>
-            <input type="text" name="user_email" className="field" placeholder="Enter your e-mail" required />
-            {/* These inputs are under the assumption for single-line inputs, like names and email fields
-            //  Thus, no resizing is necessary in this regard */}
-        </div>
-        <div className="input-box">
-            <label>What's Your Message?</label>
-            <textarea name="message" className="msg-field" placeholder="Write your message here" required />
-            {/* Textarea is explicitly made for multi-line content like messages and comments, permitting resizing */}
-        </div>
-        <button type="submit" className="send-msg">Send Message</button>
+            <div className="input-box">
+                <label>Name</label>
+                <input type="text" name="user_name" className="field" placeholder="Enter your name" required />
+            </div>
+            <div className="input-box"> 
+                <label>Email Address</label>
+                <input type="text" name="user_email" className="field" placeholder="Enter your e-mail" required />
+                {/* These inputs are under the assumption for single-line inputs, like names and email fields
+                //  Thus, no resizing is necessary in this regard */}
+            </div>
+            <div className="input-box">
+                <label>What's Your Message?</label>
+                <textarea name="message" className="msg-field" placeholder="Write your message here" required />
+                {/* Textarea is explicitly made for multi-line content like messages and comments, permitting resizing */}
+            </div>
+            <button type="submit" className="send-msg">Send Message</button>
         </form>
         </div>
         <ScrollToTop></ScrollToTop>

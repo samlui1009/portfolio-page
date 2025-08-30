@@ -1,11 +1,12 @@
 import './Card.css';
 import Image from '../assets/profile-picture.jpg';
+import NewLogo from '../assets/Sam_Logo.png';
 
 function Card() {
     return(
         <>
         <div className="home-container">
-            <img className="my-photo" src={Image} alt="Sam's Profile Picture"></img>
+            <img className="my-photo" src={NewLogo} alt="Sam's Profile Picture"></img>
         
         <div className="card">
             <div className="intro-text">

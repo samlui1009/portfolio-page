@@ -24,7 +24,7 @@ function Home() {
         return () => {
             typed.destroy();
         };
-    }, []); // Empty dependency array to run only once when component mounts
+    },[]); // Empty dependency array to run only once when component mounts
 
     return(
         <div>

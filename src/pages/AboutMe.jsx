@@ -68,20 +68,50 @@ function AboutMe() {
             <section ref={tech}>
             <div className="technical-skills">
                 <h2 className="title">Technical Skills<FaComputer className="logo"></FaComputer></h2>
-                <h3 className="type">Programming Languages</h3>
-                <p className="list">HTML5, CSS3, JavaScript, Java, C++, Python, SQL, R</p>
-                <h3 className="type">Frameworks and Libraries</h3>
-                <p className="list">React.js, ElectronJS, Recharts, Java Swing, JUnit Jupiter, Tidyverse (including ggplot2)</p>
-                <h3 className="type">Backend</h3>
-                <p className="list">Spring Boot (+ Spring Security, Spring AI), Node.js/Express.js</p>
-                <h3 className="type">Databases</h3>
-                <p className="list">PostgreSQL, H2 Database Engine, MongoDB Atlas</p>
-                <h3 className="type">Developer Tools</h3>
-                <p className="list">Git, GitHub, Vite, Postman, Visual Studio Code, Jupyter Notebooks, Canva, Figma, Filmora</p>
-                <h3 className="type">Cloud Deployment</h3>
-                <p className="list">Netlify</p>
-                <h3 className="type">Laboratory-Related Technologies</h3>
-                <p className="list">Leica CytoVision Automated Cell Imaging System, SeqPilot, GeneMapper, SHIRE (LIMS), SunQuest, Promega Maxwell RSC48</p>
+                
+                <div className="all-skills-left">
+                    <div className="skill">
+                        <h3 className="type">Programming Languages</h3>
+                        <p className="list">JavaScript, Java, C++, Python, SQL, R</p>
+                    </div>
+
+                    <div className="skill">
+                        <h3 className="type">Web Development</h3>
+                        <p className="list">HTML5, CSS3, React.js, Electron.js</p>
+                    </div>
+
+                    <div className="skill">
+                        <h3 className="type">Frameworks/Libraries</h3>
+                        <p className="list">JUnit Jupiter Testing Framework, Recharts, Java Swing, Tidyverse (including ggplot2)</p>
+                    </div>
+                    
+                    <div className="skill">
+                        <h3 className="type">Backend Frameworks</h3>
+                        <p className="list">Spring Boot (+ Spring Security, Spring AI), Node.js/Express.js</p>
+                    </div>
+                </div>
+
+                <div className="all-skills-right">
+                    <div className="skill">
+                        <h3 className="type">Databases</h3>
+                        <p className="list">PostgreSQL, H2 Database Engine, MongoDB Atlas, SQLite</p>
+                    </div>
+
+                <div className="skill">
+                    <h3 className="type">Developer Tools</h3>
+                    <p className="list">Git, GitHub, Vite, Postman, Visual Studio Code, Jupyter Notebooks, Figma</p>
+                </div>
+
+                <div className="skill">
+                    <h3 className="type">Cloud Deployment</h3>
+                    <p className="list">Netlify</p>
+                </div>
+
+                <div className="skill">
+                    <h3 className="type">Laboratory-Related Technologies</h3>
+                    <p className="list">Leica CytoVision Automated Cell Imaging System, SeqPilot, GeneMapper, SHIRE (LIMS), SunQuest, Promega Maxwell RSC48</p>
+                </div>
+                </div>
             </div>
             </section>
 

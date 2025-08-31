@@ -10,7 +10,7 @@
 
 .bar-container {
     background-color: #beadad;
-    height: 80px;
+    height: 100px;
 }
 
 .navbar {
@@ -56,6 +56,8 @@
 }
 
 .nav-options li {
+    margin-top: 10px;
+    font-size: 30px;
     margin-left: 50px;
 } 
 

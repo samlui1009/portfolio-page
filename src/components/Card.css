@@ -1,37 +1,37 @@
+.photo-ctn {
+    display: flex;
+    justify-content: center;
+}
+
 .home-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 40px;
-    padding: 30px;
-    min-height: 75vh;
-    box-sizing: border-box;
 }
 
 .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    border: 1px solid hsl(0, 16%, 72%);
-    border-radius: 75px;
-    border-style: groove;
-    padding: 110px;
+    border: 5px solid hsl(0, 14%, 70%);
+    border-radius: 12px;
+    padding: 100px;
     margin: 100px;
-    background-color:#c5aeae;
+    background-color:#efe8e8;
     font-size: 30px;
-    width: 850px;
+    width: 900px;
 }
 
 .my-photo {
-    width: 500px;
-    height: 500px;
-    /* border-radius: 50%; */
-    object-fit: cover;
+    width: 600px;
+    height: 600px;
 }
 
 .intro-text {
-    max-width: 600px;
     font-size: 35px;
+}
+
+.txt-header {
+    text-align: center;
+}
+
+.txt-ctn {
+    margin: auto;
 }
 

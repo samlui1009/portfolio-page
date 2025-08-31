@@ -1,24 +1,26 @@
 import './Card.css';
-import Image from '../assets/profile-picture.jpg';
 import NewLogo from '../assets/Sam_Logo.png';
 
 function Card() {
+
     return(
         <>
-        <div className="home-container">
+        <div className="photo-ctn">
             <img className="my-photo" src={NewLogo} alt="Sam's Profile Picture"></img>
-        
+        </div>
+
+        <div className="home-container">
         <div className="card">
             <div className="intro-text">
-                <h2>It's nice to meet you.</h2>
-                <p>💻 I am a current 3rd-year Bachelor of Computer Science (BCS) student and Information Technology Analyst intern with Shared Services Canada, studying
-                    at the University of British Columbia in Vancouver, B.C.
-                </p>
-                <p>🧬 I'm a former genetics technologist, aspiring software developer and data science enthusiast.</p>
-                <p>💭 My exposure into the inefficiencies experienced within public healthcare had motivated 
-                    my career transition. My current career goals are to eventually bring innovative, scalable solutions to the rapidly evolving 
-                    digital health space. 
-                </p>
+                <div className="txt-ctn">
+                    <p>💻 I am a current 3rd-year Bachelor of Computer Science second-degree student and <b>Information Technology Analyst intern</b> with Shared Services Canada, studying
+                        at the <b>University of British Columbia</b> in Vancouver, B.C.</p>
+                    <p>💭 My exposure into the inefficiencies experienced within public healthcare had motivated 
+                        my career transition. My current career goals are to eventually bring innovative, scalable solutions to the rapidly evolving 
+                        digital health spaces. </p>
+                    <p>💡 I'm always open to collaborations and chatting with other like-minded individuals about projects, hobbies and favourite bubble tea places (My personal favourite: <b><a href="https://www.yifangtea.com/" target="_blank">YiFang Fruit Tea)</a></b> 🧋
+                    </p>
+                </div>
                 </div>
             </div>
         </div>

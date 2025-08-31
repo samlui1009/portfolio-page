@@ -45,8 +45,6 @@
 }
 
 .technical-skills {
-    display: flex;
-    flex-direction: column;
     margin: 5rem;
     border: 3px none;
     border-radius: 18px;
@@ -57,7 +55,7 @@
 
 .technical-skills .title {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 3.5rem;

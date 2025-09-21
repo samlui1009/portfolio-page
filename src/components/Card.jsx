@@ -18,7 +18,7 @@ function Card() {
                     <p>💭 My exposure into the inefficiencies experienced within public healthcare had motivated 
                         my career transition. My current career goals are to eventually bring innovative, scalable solutions to the rapidly evolving 
                         digital health spaces. </p>
-                    <p>💡 I'm always open to collaborations and chatting with other like-minded individuals about projects, hobbies and favourite bubble tea places (My personal favourite: <b><a href="https://www.yifangtea.com/" target="_blank">YiFang Fruit Tea)</a></b> 🧋
+                    <p>💡 I'm always open to collaborations and chatting with other like-minded individuals about projects, hobbies and favourite bubble tea places (My personal favourite: <b><a href="https://www.yifangtea.com/" target="_blank" className="yifang-link">YiFang Fruit Tea)</a></b> 🧋
                     </p>
                 </div>
                 </div>

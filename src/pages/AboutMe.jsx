@@ -98,8 +98,8 @@ function AboutMe() {
                     </div>
 
                 <div className="skill">
-                    <h3 className="type">Developer Tools</h3>
-                    <p className="list">Git, GitHub, Vite, Postman, Visual Studio Code, Jupyter Notebooks, Figma</p>
+                    <h3 className="type">Developer & Collaboration Tools</h3>
+                    <p className="list">Git, GitHub, Vite, Postman, Visual Studio Code, Jupyter Notebooks, Figma, Atlassian Confluence, Service Manager 9</p>
                 </div>
 
                 <div className="skill">
@@ -125,9 +125,13 @@ function AboutMe() {
                         <p><IoCalendarNumber className="logo"></IoCalendarNumber>August 2025 - Present</p>
                     </div>
                     <ul className="tasks">
-                        <li>Thrilled to be joining Shared Services Canada in Vancouver, B.C. for a 4-month internship as an incoming I.T. Analyst Co-op! Through this experience, I hope to expand and develop my troubleshooting expertise, 
-                            particularly in the realm of handling software and hardware.
+                        <li>Supporting Desktop Support Services within the Digital Services sector with extensive Windows 11 systems imaging and BIOS configuration,
+                            coordinating secure asset deployments for federal end-users with Service Manager 9 and Excel
                         </li>
+                        <li>
+                            Prototyping an internal Python-based automation tool to reduce repetitive user-based inputs
+                        </li>
+                        <li>Drafting a comprehensive 30-paged training guide for future co-op students to decrease onboarding time and improve training efficiency</li>
                     </ul>
                     <hr className="divider"></hr>
                     <h3 className="org">Provincial Health Services Authority - Clinical Genetics Technologist</h3>
@@ -196,10 +200,9 @@ function AboutMe() {
                     <p><FaLocationDot></FaLocationDot>Remote</p>
                     <p><IoCalendarNumber></IoCalendarNumber>August 2025 - Present</p>
                     <ul className="tasks">
-                        <li>Elated to be selected as a Junior Mentor for the BU1DL initiative! Through this program, I will be collaborating with 
-                            a Senior Mentor to help provide technical guidance and advice for 4 junior developers as they work together to 
-                            build and ship a working Minimum Viable Product within a 4-month duration. Through this, I hope to develop my 
-                            interpersonal communication skills, and learn a few things myself as a developer :)
+                        <li>Mentoring 3 undergraduate CS students in a pilot initiative, assisting them in their personal project development over 
+                            the course of 4 months by providing technical guidance and support through bi-weekly virtual meetings to maintain project 
+                            momentum and participant accountability
                         </li>
                     </ul>
                     </div>

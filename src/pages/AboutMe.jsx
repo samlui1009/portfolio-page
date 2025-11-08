@@ -44,7 +44,7 @@ function AboutMe() {
                 </div>
                 <p>Expected Graduation Date: May 2027</p>
                 <p>Relevant Coursework: Basic Algorithms & Data Structures, Software Construction, Introduction to Data Science</p>
-                <p>Extracurriculars: UBC BCS 2025 Cohort Support Hub Mentor, UBC Science Co-op Participant, UBC BCS Tri-Mentorship Program Participant</p>
+                <p>Extracurriculars: UBC BU1DL, UBC BCS 2025 Cohort Support Hub Mentor, UBC Science Co-op Participant, UBC BCS Tri-Mentorship Program Participant</p>
 
                 <h3 className="school">British Columbia Institute of Technology</h3>
                 <div className="school-info">
@@ -72,7 +72,7 @@ function AboutMe() {
                 <div className="all-skills-left">
                     <div className="skill">
                         <h3 className="type">Programming Languages</h3>
-                        <p className="list">JavaScript, Java, C++, Python, SQL, R</p>
+                        <p className="list">Python, Java, JavaScript, C++, PowerShell (currently acquiring), SQL, R</p>
                     </div>
 
                     <div className="skill">
@@ -82,7 +82,7 @@ function AboutMe() {
 
                     <div className="skill">
                         <h3 className="type">Frameworks/Libraries</h3>
-                        <p className="list">JUnit Jupiter Testing Framework, Recharts, Java Swing, Tidyverse (including ggplot2)</p>
+                        <p className="list">JUnit Jupiter Testing Framework, Recharts, Java Swing, Tkinter, Tidyverse (including ggplot2)</p>
                     </div>
                     
                     <div className="skill">
@@ -98,13 +98,13 @@ function AboutMe() {
                     </div>
 
                 <div className="skill">
-                    <h3 className="type">Developer & Collaboration Tools</h3>
-                    <p className="list">Git, GitHub, Vite, Postman, Visual Studio Code, Jupyter Notebooks, Figma, Atlassian Confluence, Service Manager 9</p>
+                    <h3 className="type">Developer Tools</h3>
+                    <p className="list">Git, GitHub, Vite, Postman, Jupyter Notebooks, Figma, Groq, Selenium</p>
                 </div>
 
                 <div className="skill">
-                    <h3 className="type">Cloud Deployment</h3>
-                    <p className="list">Netlify</p>
+                    <h3 className="type">Cloud & Enterprise Systems</h3>
+                    <p className="list">Netlify, Service Manager 9, Confluence, Microsoft Azure Active Directory, Mobile Device Management (MDM), Microsoft Endpoint Configuration Manager (SCCM)</p>
                 </div>
 
                 <div className="skill">
@@ -125,13 +125,18 @@ function AboutMe() {
                         <p><IoCalendarNumber className="logo"></IoCalendarNumber>August 2025 - Present</p>
                     </div>
                     <ul className="tasks">
-                        <li>Supporting Desktop Support Services within the Digital Services sector with extensive Windows 11 systems imaging and BIOS configuration,
-                            coordinating secure asset deployments for federal end-users with Service Manager 9 and Excel
+                        <li>
+                            Delivering Windows 11 imaging, BIOS configuration and QA testing for hardware deployments via Service Manager 9, ensuring reliable end-user system performance
                         </li>
                         <li>
-                            Prototyping an internal Python-based automation tool to reduce repetitive user-based inputs
+                            Managing Microsoft Azure user states via MDM and SCCM, leveraging PowerShell scripts for account provisioning and access management to maintain secure enterprise environments
                         </li>
-                        <li>Drafting a comprehensive 30-paged training guide for future co-op students to decrease onboarding time and improve training efficiency</li>
+                        <li>
+                            Developing automation tools with Python, Tkinter and Selenium to streamline ticket workflows and shipment processing, reducing manual data entry errors and improving processing speed by 75%; deployment planned for a 5-member unit
+                        </li>
+                        <li>
+                        Authored a 60+ page training guide standardizing support procedures, currently under review as a national onboarding resource for future co-ops across the Desktop Support Services team
+                        </li>
                     </ul>
                     <hr className="divider"></hr>
                     <h3 className="org">Provincial Health Services Authority - Clinical Genetics Technologist</h3>
@@ -140,8 +145,8 @@ function AboutMe() {
                     <p><IoCalendarNumber className="logo"></IoCalendarNumber>November 2021 - August 2024</p>
                     </div>
                     <ul className="tasks">
-                        <li>Coordinated complex genetic testing workflows by collaborating with clinical teams to ensure timely delivery of patient results</li>
-                        <li>Worked with IT and external vendors to troubleshoot LIS/equipment software/hardware issues, reducing laboratory downtime to maintain workflow continuity</li>
+                        <li>Executed high-throughput genetic analyses under standardized protocols, delivering timely and accurate results reporting</li>
+                        <li>Liaised with IT/vendors to troubleshoot LIS and equipment software/hardware issues, reducing operational downtime</li>
                         <li>Supported onboarding and training of practicum students and new technologists, fostering technical confidence</li>
                     </ul>
                     

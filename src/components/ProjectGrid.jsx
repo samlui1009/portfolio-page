@@ -7,10 +7,11 @@ import DailySips from '../assets/Individual-Project-Assets/dailysips-logo.png'
 import Portfolio from '../assets/Individual-Project-Assets/portfolio-logo.png';
 import SipLy from '../assets/Individual-Project-Assets/SipLy-login.png';
 import AniMori from '../assets/Individual-Project-Assets/animori-logo.png';
+import JobQuestAI from '../assets/Individual-Project-Assets/jobquest_ai.jpg';
 import ScrollToTop from './ScrollToTop.jsx'
 
-import { SiMongodb, SiJupyter, SiJunit5, SiVite, SiCss3, SiJson, SiJavascript, SiSpringboot, SiPostman, SiSqlite } from 'react-icons/si';
-import { FaReact, FaJava } from 'react-icons/fa';
+import { SiNextdotjs, SiElevenlabs, SiMongodb, SiJupyter, SiJunit5, SiVite, SiCss3, SiJson, SiJavascript, SiSpringboot, SiPostman, SiSqlite } from 'react-icons/si';
+import { FaReact, FaJava, FaAws } from 'react-icons/fa';
 import { RiH2 } from 'react-icons/ri';
 import { IoLogoElectron } from "react-icons/io5";
 
@@ -19,6 +20,16 @@ function ProjectGrid() {
     return (
         <>
         <div className="grid-container">
+            <ProjectCard
+            title="JobQuest AI"
+            type="SFU StormHacks 2025 Project"
+            image ={ JobQuestAI }
+            description ="As a CS student myself, I recognize that searching and applying for internships can seem like an endless, stressing (and occasionally, demoralizing!) experience.
+            Through JobQuest AI, my team and I aim to improve the job hunt experience in an innovative, gamified way that is both fun and enjoyable with 'quest' options for mock behaviourals and resume match and feedback."
+            url = "https://github.com/Lada496/stormhacks-2025"
+            stack = {[ SiNextdotjs, SiElevenlabs, FaAws ]}>
+            </ProjectCard>
+
             <ProjectCard
             title="AniMori"
             type = "Personal"

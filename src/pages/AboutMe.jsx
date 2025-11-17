@@ -119,6 +119,21 @@ function AboutMe() {
             <div className="professional-exp"> 
                 <h2 className="title">Professional Experience<SiReaddotcv></SiReaddotcv></h2>
                 <div>
+
+                    <h3 className="org">Canadian Institute for Health Information - Applied Cloud Architecture Developer Intern</h3>
+                    <div className="job-info">
+                        <p><FaLocationDot className="logo"></FaLocationDot>Toronto, ON</p>
+                        <p><IoCalendarNumber className="logo"></IoCalendarNumber>Starting January 2026 - April 2026</p>
+                    </div>
+                    <ul className="tasks">
+                        <li>I'm incredibly excited to share that I will be starting a 4-month internship in Toronto, ON, as an applied cloud architecture developer intern with
+                            the Canadian Institute for Health Information! This opportunity will help me develop the skills needed to succeed in cloud computing. As I assist with CIHI's Cloud Migration project,
+                            I will gain exposure into DevOps-related technologies, including Java, Spring Boot, Python, Docker, Kubernetes and GitLab in CI/CD pipeline development.
+                        </li>
+                    </ul>
+
+                    <hr className="divider"></hr>
+
                     <h3 className="org">Shared Services Canada - Information Technology Analyst Co-op Student</h3>
                     <div className="job-info">
                         <p><FaLocationDot className="logo"></FaLocationDot>Vancouver, British Columbia</p>
@@ -138,6 +153,7 @@ function AboutMe() {
                         Authored a 60+ page training guide standardizing support procedures, currently under review as a national onboarding resource for future co-ops across the Desktop Support Services team
                         </li>
                     </ul>
+                    
                     <hr className="divider"></hr>
                     <h3 className="org">Provincial Health Services Authority - Clinical Genetics Technologist</h3>
                     <div className="job-info">
@@ -200,12 +216,12 @@ function AboutMe() {
             <div className="volunteering">
                 <h2 className="title">Volunteering Experience<RiCommunityFill></RiCommunityFill></h2>
                 <div>
-                    <h3 className="org">UBC BU1DL - Junior Mentor (Selected)</h3>
+                    <h3 className="org">UBC BU1DL - Junior Mentor</h3>
                     <div className="job-info">
                     <p><FaLocationDot></FaLocationDot>Remote</p>
                     <p><IoCalendarNumber></IoCalendarNumber>August 2025 - Present</p>
                     <ul className="tasks">
-                        <li>Mentoring 3 undergraduate CS students in a pilot initiative, assisting them in their personal project development over 
+                        <li>Co-mentoring 3 undergraduate CS students in a pilot initiative, assisting them in their personal project development over 
                             the course of 4 months by providing technical guidance and support through bi-weekly virtual meetings to maintain project 
                             momentum and participant accountability
                         </li>

@@ -13,7 +13,7 @@ function Card() {
         <div className="card">
             <div className="intro-text">
                 <div className="txt-ctn">
-                    <p>💻 I am a current 3rd-year Bachelor of Computer Science second-degree student and <b>Information Technology Analyst intern</b> with Shared Services Canada, studying
+                    <p>💻 I am a current 3rd-year Bachelor of Computer Science second-degree student and <b>I.T. Analyst intern</b> with Shared Services Canada, studying
                         at the <b>University of British Columbia</b> in Vancouver, B.C.</p>
                     <p>💭 My exposure into the inefficiencies experienced within public healthcare had motivated 
                         my career transition. My current career goals are to eventually bring innovative, scalable solutions to the rapidly evolving 

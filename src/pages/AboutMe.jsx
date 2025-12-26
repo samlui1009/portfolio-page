@@ -137,20 +137,20 @@ function AboutMe() {
                     <h3 className="org">Shared Services Canada - Information Technology Analyst Co-op Student</h3>
                     <div className="job-info">
                         <p><FaLocationDot className="logo"></FaLocationDot>Vancouver, British Columbia</p>
-                        <p><IoCalendarNumber className="logo"></IoCalendarNumber>August 2025 - Present</p>
+                        <p><IoCalendarNumber className="logo"></IoCalendarNumber>August 2025 - December 2025</p>
                     </div>
                     <ul className="tasks">
                         <li>
-                            Delivering Windows 11 imaging, BIOS configuration and QA testing for hardware deployments via Service Manager 9, ensuring reliable end-user system performance
+                            Delivered Windows 11 imaging, BIOS configuration and QA testing for hardware deployments via Service Manager 9, ensuring reliable end-user system performance
                         </li>
                         <li>
-                            Managing Microsoft Azure user states via MDM and SCCM, leveraging PowerShell scripts for account provisioning and access management to maintain secure enterprise environments
+                            Managed Microsoft Azure user states via MDM and SCCM, leveraging PowerShell scripts for account provisioning and access management to maintain secure enterprise environments
                         </li>
                         <li>
-                            Developing automation tools with Python, Tkinter and Selenium to streamline ticket workflows and shipment processing, reducing manual data entry errors and improving processing speed by 75%; deployment planned for a 5-member unit
+                            Developed an internal automation tool using Python, Tkinter and Selenium to streamline ticket workflows and shipment processing, reducing manual data entry errors and improving processing speed by 75%, currently deployed to a 5-membered team for use
                         </li>
                         <li>
-                        Authored a 60+ page training guide standardizing support procedures, currently under review as a national onboarding resource for future co-ops across the Desktop Support Services team
+                        Authored a 60+ page training guide standardizing support procedures, now utilized as a national onboarding resource for future co-ops across the Desktop Support Services team
                         </li>
                     </ul>
                     
@@ -219,9 +219,9 @@ function AboutMe() {
                     <h3 className="org">UBC BU1DL - Junior Mentor</h3>
                     <div className="job-info">
                     <p><FaLocationDot></FaLocationDot>Remote</p>
-                    <p><IoCalendarNumber></IoCalendarNumber>August 2025 - Present</p>
+                    <p><IoCalendarNumber></IoCalendarNumber>August 2025 - December 2025</p>
                     <ul className="tasks">
-                        <li>Co-mentoring 3 undergraduate CS students in a pilot initiative, assisting them in their personal project development over 
+                        <li>Co-mentored 3 undergraduate CS students in a pilot initiative, assisting them in their personal project development over 
                             the course of 4 months by providing technical guidance and support through bi-weekly virtual meetings to maintain project 
                             momentum and participant accountability
                         </li>

@@ -44,7 +44,7 @@ function AboutMe() {
                 </div>
                 <p>Expected Graduation Date: May 2027</p>
                 <p>Relevant Coursework: Basic Algorithms & Data Structures, Software Construction, Introduction to Data Science</p>
-                <p>Extracurriculars: UBC BU1DL, UBC BCS 2025 Cohort Support Hub Mentor, UBC Science Co-op Participant, UBC BCS Tri-Mentorship Program Participant</p>
+                <p>Extracurriculars: UBC BU1DL Fall 2025 Junior Mentor, UBC BCS 2025 Cohort Support Hub Mentor, UBC Science Co-op Participant, UBC BCS Tri-Mentorship Program Participant</p>
 
                 <h3 className="school">British Columbia Institute of Technology</h3>
                 <div className="school-info">
@@ -99,7 +99,7 @@ function AboutMe() {
 
                 <div className="skill">
                     <h3 className="type">Developer Tools</h3>
-                    <p className="list">Git, GitHub, Vite, Postman, Jupyter Notebooks, Figma, Groq, Selenium</p>
+                    <p className="list">Git, GitHub, Atlassian (Confluence, Bamboo, Jira), Vite, Postman, Jupyter Notebooks, Figma, Groq, Selenium</p>
                 </div>
 
                 <div className="skill">
@@ -120,14 +120,14 @@ function AboutMe() {
                 <h2 className="title">Professional Experience<SiReaddotcv></SiReaddotcv></h2>
                 <div>
 
-                    <h3 className="org">Canadian Institute for Health Information - Applied Cloud Architecture Developer Intern</h3>
+                    <h3 className="org">Canadian Institute for Health Information (CIHI) - Applied Cloud Architecture Developer Intern</h3>
                     <div className="job-info">
-                        <p><FaLocationDot className="logo"></FaLocationDot>Toronto, ON</p>
-                        <p><IoCalendarNumber className="logo"></IoCalendarNumber>Starting January 2026 - April 2026</p>
+                        <p><FaLocationDot className="logo"></FaLocationDot>North York, ON</p>
+                        <p><IoCalendarNumber className="logo"></IoCalendarNumber>January 2026 - Present</p>
                     </div>
                     <ul className="tasks">
-                        <li>I'm incredibly excited to share that I will be starting a 4-month internship in Toronto, ON, as an applied cloud architecture developer intern with
-                            the Canadian Institute for Health Information! This opportunity will help me develop the skills needed to succeed in cloud computing. As I assist with CIHI's Cloud Migration project,
+=                        <li>I'm excited to share that I'm currently embarking on a 4-month internship in North York, ON, as an applied cloud architecture developer intern with
+                            the Canadian Institute for Health Information (CIHI)! This opportunity will help me develop the skills needed to succeed in cloud computing. As I assist with CIHI's Cloud Migration Project,
                             I will gain exposure into DevOps-related technologies, including Java, Spring Boot, Python, Docker, Kubernetes and GitLab in CI/CD pipeline development.
                         </li>
                     </ul>
@@ -221,9 +221,8 @@ function AboutMe() {
                     <p><FaLocationDot></FaLocationDot>Remote</p>
                     <p><IoCalendarNumber></IoCalendarNumber>August 2025 - December 2025</p>
                     <ul className="tasks">
-                        <li>Co-mentored 3 undergraduate CS students in a pilot initiative, assisting them in their personal project development over 
-                            the course of 4 months by providing technical guidance and support through bi-weekly virtual meetings to maintain project 
-                            momentum and participant accountability
+                        <li>Co-mentored 3 undergraduate CS students in a pilot initiative, assisting them in their personal project development by providing technical guidance and support through bi-weekly virtual meetings to maintain project 
+                            momentum and participant accountability, successfully helping ship a full-stack project for 1 mentee
                         </li>
                     </ul>
                     </div>

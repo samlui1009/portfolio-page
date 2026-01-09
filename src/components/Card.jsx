@@ -13,9 +13,8 @@ function Card() {
         <div className="card">
             <div className="intro-text">
                 <div className="txt-ctn">
-                    <p>💻 I am a current 3rd-year Bachelor of Computer Science second-degree student from the <b>University of British Columbia</b>, and current <b>Applied Cloud Architecture Developer Intern</b> 
-                    with the <b>Canadian Institute for Health Information</b>.</p>
-                    <p>Previously, I held a role as an <b>I.T. Analyst intern</b> with <b>Shared Services Canada</b>.</p>
+                    <p>💻 I am a current 3rd-year Bachelor of Computer Science second-degree student from the <b>University of British Columbia</b>, and current <b>Applied Cloud Architecture Developer Intern</b> with the <b>Canadian Institute for Health Information</b>. 
+                    (Previously associated with <b>Shared Services Canada</b> as an <b>I.T. Analyst intern</b>.)</p>
                     <p>💭 My exposure into the inefficiencies experienced within public healthcare had motivated 
                         my career transition. My current career goals are to eventually bring innovative, scalable solutions to the rapidly evolving 
                         digital health spaces.</p>

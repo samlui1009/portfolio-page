@@ -126,7 +126,7 @@ function AboutMe() {
                         <p><IoCalendarNumber className="logo"></IoCalendarNumber>January 2026 - Present</p>
                     </div>
                     <ul className="tasks">
-=                        <li>I'm excited to share that I'm currently embarking on a 4-month internship in North York, ON, as an applied cloud architecture developer intern with
+                        <li>I'm excited to share that I'm currently embarking on a 4-month internship in North York, ON, as an applied cloud architecture developer intern with
                             the Canadian Institute for Health Information (CIHI)! This opportunity will help me develop the skills needed to succeed in cloud computing. As I assist with CIHI's Cloud Migration Project,
                             I will gain exposure into DevOps-related technologies, including Java, Spring Boot, Python, Docker, Kubernetes and GitLab in CI/CD pipeline development.
                         </li>

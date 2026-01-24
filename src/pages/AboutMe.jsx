@@ -66,53 +66,58 @@ function AboutMe() {
             </section>
 
             <section ref={tech}>
-            <div className="technical-skills">
-                <h2 className="title">Technical Skills<FaComputer className="logo"></FaComputer></h2>
-                
-                <div className="all-skills-left">
-                    <div className="skill">
-                        <h3 className="type">Programming Languages</h3>
-                        <p className="list">Python, Java, JavaScript, C++, PowerShell (currently acquiring), SQL, R</p>
-                    </div>
-
-                    <div className="skill">
-                        <h3 className="type">Web Development</h3>
-                        <p className="list">HTML5, CSS3, React.js, Electron.js</p>
-                    </div>
-
-                    <div className="skill">
-                        <h3 className="type">Frameworks/Libraries</h3>
-                        <p className="list">JUnit Jupiter Testing Framework, Recharts, Java Swing, Tkinter, Tidyverse (including ggplot2)</p>
-                    </div>
+                <div className="technical-skills">
+                    <h2 className="title">Technical Skills<FaComputer className="logo"></FaComputer></h2>
                     
-                    <div className="skill">
-                        <h3 className="type">Backend Frameworks</h3>
-                        <p className="list">Spring Boot (+ Spring Security, Spring AI), Node.js/Express.js</p>
+                    <div className="skills-columns">
+                        <div className="skill">
+                            <h3 className="type">Programming Languages</h3>
+                            <p className="list">Python (+ Tkinter), Java, JavaScript, C++, PowerShell (currently acquiring), SQL, R</p>
+                        </div>
+
+                        <div className="skill">
+                            <h3 className="type">Web Development</h3>
+                            <p className="list">HTML5, CSS3, React.js, Electron.js</p>
+                        </div>
+
+                        <div className="skill">
+                            <h3 className="type">Frameworks/Libraries</h3>
+                            <p className="list">Java Swing, JUnit Testing Framework, Tidyverse (ggplot2)</p>
+                        </div>
+                        
+                        <div className="skill">
+                            <h3 className="type">Backend</h3>
+                            <p className="list">Spring Boot (+ Spring Security, Spring AI), Node.js/Express.js</p>
+                        </div>
+
+                        <div className="skill">
+                            <h3 className="type">Databases</h3>
+                            <p className="list">PostgreSQL, H2 Database Engine, MongoDB Atlas, SQLite</p>
+                        </div>
+
+                        <div className="skill">
+                            <h3 className="type">Cloud & Containerization Platforms</h3>
+                            <p className="list">Docker (+ Docker Desktop), JFrog Artifactory, Kubernetes, Amazon Web Services (ECS, EKS) - All currently acquiring, Netlify</p>
+                        </div>
+
+                        <div className="skill">
+                            <h3 className="type">Developer Tools</h3>
+                            <p className="list">Git, GitHub, GitLab, Atlassian (Confluence, Bamboo, Jira), Vite, Postman, Jupyter Notebooks, Figma, Groq, Selenium</p>
+                        </div>
+
+                        <div className="skill">
+                            <h3 className="type">Enterprise Systems</h3>
+                            <p className="list">Service Manager 9, Microsoft Azure (Active Directory, Mobile Device Management (MDM), Microsoft Endpoint Configuration Manager (SCCM))</p>
+                        </div>
+
+                        {/* Temporarily removed - Does not appear relevant, add back in another time? */}
+                        {/* <div className="skill">
+                            <h3 className="type">Laboratory-Related Technologies</h3>
+                            <p className="list">Leica CytoVision Automated Cell Imaging System, SeqPilot, GeneMapper, SHIRE (LIMS), SunQuest, Promega Maxwell RSC48</p>
+                        </div> */}
+
                     </div>
                 </div>
-
-                <div className="all-skills-right">
-                    <div className="skill">
-                        <h3 className="type">Databases</h3>
-                        <p className="list">PostgreSQL, H2 Database Engine, MongoDB Atlas, SQLite</p>
-                    </div>
-
-                <div className="skill">
-                    <h3 className="type">Developer Tools</h3>
-                    <p className="list">Git, GitHub, Atlassian (Confluence, Bamboo, Jira), Vite, Postman, Jupyter Notebooks, Figma, Groq, Selenium</p>
-                </div>
-
-                <div className="skill">
-                    <h3 className="type">Cloud & Enterprise Systems</h3>
-                    <p className="list">Netlify, Service Manager 9, Confluence, Microsoft Azure Active Directory, Mobile Device Management (MDM), Microsoft Endpoint Configuration Manager (SCCM)</p>
-                </div>
-
-                <div className="skill">
-                    <h3 className="type">Laboratory-Related Technologies</h3>
-                    <p className="list">Leica CytoVision Automated Cell Imaging System, SeqPilot, GeneMapper, SHIRE (LIMS), SunQuest, Promega Maxwell RSC48</p>
-                </div>
-                </div>
-            </div>
             </section>
 
             <section ref={profexp}>
@@ -126,9 +131,11 @@ function AboutMe() {
                         <p><IoCalendarNumber className="logo"></IoCalendarNumber>January 2026 - Present</p>
                     </div>
                     <ul className="tasks">
-                        <li>I'm excited to share that I'm currently embarking on a 4-month internship in North York, ON, as an applied cloud architecture developer intern with
-                            the Canadian Institute for Health Information (CIHI)! This opportunity will help me develop the skills needed to succeed in cloud computing. As I assist with CIHI's Cloud Migration Project,
-                            I will gain exposure into DevOps-related technologies, including Java, Spring Boot, Python, Docker, Kubernetes and GitLab in CI/CD pipeline development.
+                        <li>
+                            Currently assisting with CIHI's Cloud Migration Project, spearheading the migration of internal Java applications and microservices from Spring to Spring Boot, enhancing cloud compatibility and performance
+                        </li>
+                        <li>
+                            Collaborating with cross-functional teams to design, test and implement CI/CD pipelines using Atlassian Bamboo, Docker, and Kubernetes, streamlining deployment processes and improving system reliability onto AWS ECS/EKS platforms
                         </li>
                     </ul>
 

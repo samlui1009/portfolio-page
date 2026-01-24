@@ -1,4 +1,5 @@
 import './ProjectGrid.css';
+
 import ProjectCard from '../components/ProjectCard.jsx';
 import PantryPal from '../assets/Individual-Project-Assets/pantrypal.jpg';
 import PLAI from '../assets/Individual-Project-Assets/plai-logo.png';
@@ -8,10 +9,12 @@ import Portfolio from '../assets/Individual-Project-Assets/portfolio-logo.png';
 import SipLy from '../assets/Individual-Project-Assets/SipLy-login.png';
 import AniMori from '../assets/Individual-Project-Assets/animori-logo.png';
 import JobQuestAI from '../assets/Individual-Project-Assets/jobquest_ai.jpg';
+import OverHacked from '../assets/Individual-Project-Assets/overhacked-gamescene.png';
+
 import ScrollToTop from './ScrollToTop.jsx'
 
-import { SiNextdotjs, SiElevenlabs, SiMongodb, SiJupyter, SiJunit5, SiVite, SiCss3, SiJson, SiJavascript, SiSpringboot, SiPostman, SiSqlite } from 'react-icons/si';
-import { FaReact, FaJava, FaAws } from 'react-icons/fa';
+import { SiNextdotjs, SiElevenlabs, SiMongodb, SiJupyter, SiJunit5, SiVite, SiCss3, SiJson, SiJavascript, SiSpringboot, SiPostman, SiSqlite, SiFastapi, SiLangchain } from 'react-icons/si';
+import { FaReact, FaJava, FaAws, FaPython } from 'react-icons/fa';
 import { RiH2 } from 'react-icons/ri';
 import { IoLogoElectron } from "react-icons/io5";
 
@@ -20,6 +23,15 @@ function ProjectGrid() {
     return (
         <>
         <div className="grid-container">
+            <ProjectCard
+            title="OverHacked!"
+            type="UBC nwHacks 2026 Project"
+            image = { OverHacked }
+            url = "https://github.com/steph-xue/overhacked"
+            description = "OverHacked! is a cozy single-player 2D game, designed to help educate CS topics for students through interactive mini-games. Race against the clock, and complete challenges to 'hack' your way through levels while learning fundamental topics in a fun and engaging way!"
+            stack = {[ FaReact, FaPython, SiFastapi, SiLangchain ]}>
+            </ProjectCard>
+
             <ProjectCard
             title="JobQuest AI"
             type="SFU StormHacks 2025 Project"

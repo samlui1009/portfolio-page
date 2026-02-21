@@ -131,12 +131,9 @@ function AboutMe() {
                         <p><IoCalendarNumber className="logo"></IoCalendarNumber>January 2026 - Present</p>
                     </div>
                     <ul className="tasks">
-                        <li>
-                            Currently assisting with CIHI's Cloud Migration Project, spearheading the migration of internal Java applications and microservices from Spring to Spring Boot, enhancing cloud compatibility and performance
-                        </li>
-                        <li>
-                            Collaborating with cross-functional teams to design, test and implement CI/CD pipelines using Atlassian Bamboo, Docker, and Kubernetes, streamlining deployment processes and improving system reliability onto AWS ECS/EKS platforms
-                        </li>
+                        <li>Migrating 3 enterprise Java microservices from Spring to Spring Boot by refactoring 20+ Maven dependencies, modernizing deprecated APIs and standardizing environment configurations, improving cloud deployment stability</li>
+                        <li>Resolved containerization failures related to JAR packaging and JSP frameworks by transitioning to Thymeleaf while optimizing production-ready Dockerfiles to enable automated image creation with Bamboo and Docker for Amazon ECS </li>
+                        <li>Authoring and maintaining 5+ internal Confluence documentation pages outlining migration and troubleshooting workflows, improving team onboarding efficiency and knowledge transfer while reducing repeated debugging efforts  </li>
                     </ul>
 
                     <hr className="divider"></hr>

@@ -131,8 +131,8 @@ function AboutMe() {
                         <p><IoCalendarNumber className="logo"></IoCalendarNumber>January 2026 - Present</p>
                     </div>
                     <ul className="tasks">
-                        <li>Migrating 3 enterprise Java microservices from Spring to Spring Boot by refactoring 20+ Maven dependencies, modernizing deprecated APIs and standardizing environment configurations, improving cloud deployment stability</li>
-                        <li>Resolved containerization failures related to JAR packaging and JSP frameworks by transitioning to Thymeleaf while optimizing production-ready Dockerfiles to enable automated image creation with Bamboo and Docker for Amazon ECS </li>
+                        <li>Migrating 3 enterprise Java monolithic applications from Spring to Spring Boot by refactoring 20+ Maven dependencies, modernizing deprecated APIs and standardizing configurations, improving cloud deployment stability onto Amazon EKS</li>
+                        <li>Resolved containerization failures related to JAR packaging and JSP frameworks by transitioning to Thymeleaf while optimizing production-ready Dockerfiles to enable automated image creation with Bamboo and Docker for Amazon ECR  </li>
                         <li>Authoring and maintaining 5+ internal Confluence documentation pages outlining migration and troubleshooting workflows, improving team onboarding efficiency and knowledge transfer while reducing repeated debugging efforts  </li>
                     </ul>
 

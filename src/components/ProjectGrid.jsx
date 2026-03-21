@@ -10,11 +10,12 @@ import SipLy from '../assets/Individual-Project-Assets/SipLy-login.png';
 import AniMori from '../assets/Individual-Project-Assets/animori-logo.png';
 import JobQuestAI from '../assets/Individual-Project-Assets/jobquest_ai.jpg';
 import OverHacked from '../assets/Individual-Project-Assets/overhacked-gamescene.png';
+import PassPing from '../assets/Individual-Project-Assets/passping-logo.png';
 
 import ScrollToTop from './ScrollToTop.jsx'
 
 import { SiNextdotjs, SiElevenlabs, SiMongodb, SiJupyter, SiJunit5, SiVite, SiCss3, SiJson, SiJavascript, SiSpringboot, SiPostman, SiSqlite, SiFastapi, SiLangchain } from 'react-icons/si';
-import { FaReact, FaJava, FaAws, FaPython } from 'react-icons/fa';
+import { FaReact, FaJava, FaAws, FaPython, FaChrome } from 'react-icons/fa';
 import { RiH2 } from 'react-icons/ri';
 import { IoLogoElectron } from "react-icons/io5";
 
@@ -24,13 +25,24 @@ function ProjectGrid() {
         <>
         <div className="grid-container">
             <ProjectCard
-            title="OverHacked!"
-            type="UBC nwHacks 2026 Project"
-            image = { OverHacked }
-            url = "https://github.com/steph-xue/overhacked"
-            description = "OverHacked! is a cozy single-player 2D game, designed to help educate CS topics for students through interactive mini-games. Race against the clock, and complete challenges to 'hack' your way through levels while learning fundamental topics in a fun and engaging way!"
-            stack = {[ FaReact, FaPython, SiFastapi, SiLangchain ]}>
+                title="PassPing"
+                type="Personal"
+                image = { PassPing }
+                url = "https://github.com/samlui1009/PassPing"
+                description = "PassPing is a lightweight Google Chrome extension, developed as a solution to a commonly reoccurring issue of forgotten U-Pass reloads. Designed for post-secondary undergraduate students within the Greater Vancouver area, PassPing provides a simple, user-friendly interface that provides reminders for reload schedules. Never miss your U-Pass again!"
+                stack = {[ SiCss3, SiJavascript, FaReact, SiVite, FaChrome ]}>
             </ProjectCard>
+
+            
+            <ProjectCard
+                title="OverHacked!"
+                type="UBC nwHacks 2026 Project"
+                image = { OverHacked }
+                url = "https://github.com/steph-xue/overhacked"
+                description = "OverHacked! is a cozy single-player 2D game, designed to help educate CS topics for students through interactive mini-games. Race against the clock, and complete challenges to 'hack' your way through levels while learning fundamental topics in a fun and engaging way!"
+                stack = {[ FaReact, FaPython, SiFastapi, SiLangchain ]}>
+            </ProjectCard>
+
 
             <ProjectCard
             title="JobQuest AI"

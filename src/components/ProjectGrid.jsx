@@ -55,10 +55,9 @@ function ProjectGrid() {
           type="Hack the Globe 2026 Project"
           image={CommunityPulse}
           url="https://github.com/ajarodpaulson/hack-the-globe-2026"
-          description="Developed for the Hack the Globe 2026 hackathon, CommunityPulse was built as a solution to help outreach workers 
-          capture anecdotal data on those within the community in need. With a user-friendly interface, real-time interview recording 
-          using the Web Speech API, immediate transcript anonymization and analysis via Ollama and Leaflet heat map visualizations for each recorded interview,
-          we believe that CommunityPulse can be used to provide interventions and support those who need care in a more efficient, and effective manner."
+          description="CommunityPulse was built as a solution to help outreach workers 
+          capture anecdotal data on those within the community in need in a more efficient, effective manner through a user-friendly interface, real-time interview recording 
+          using the Web Speech API, immediate transcript anonymization and analysis via Ollama and Leaflet heat map visualizations."
           stack={[SiNextdotjs, SiCss3, SiJavascript, SiOllama, SiLeaflet]}
         ></ProjectCard>
 

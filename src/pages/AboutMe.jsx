@@ -171,9 +171,35 @@ function AboutMe() {
 
         <section ref={profexp}>
           <div className="professional-exp">
+
+            <hr className="divider"></hr>
+
             <h2 className="title">
               Professional Experience<SiReaddotcv></SiReaddotcv>
             </h2>
+
+            <div>
+              <h3 className="org">
+                UBC Faculty of Applied Sciences - Front-End Web Developer (Incoming WorkLearn)
+              </h3>
+              <div className="job-info">
+                <p>
+                  <FaLocationDot className="logo"></FaLocationDot>Vancouver, BC
+                </p>
+                <p>
+                  <IoCalendarNumber className="logo"></IoCalendarNumber>Starting May 2026
+                </p>
+              </div>
+              <ul className="tasks">
+                <li>
+                  Excited to share that I will be joining the Faculty of Applied Sciences in May 2026 as an incoming 
+                  frontend web developer through the UBC WorkLearn program! 
+                  Here, I will help support the development and maintenance of web content using HTML, CSS, JavaScript on CMS platforms, 
+                  with a focus on responsive design, accessibility, and usability best practices. 
+                </li>
+              </ul>
+            </div>
+
             <div>
               <h3 className="org">
                 Canadian Institute for Health Information (CIHI) - Applied Cloud

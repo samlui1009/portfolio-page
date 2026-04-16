@@ -172,8 +172,6 @@ function AboutMe() {
         <section ref={profexp}>
           <div className="professional-exp">
 
-            <hr className="divider"></hr>
-
             <h2 className="title">
               Professional Experience<SiReaddotcv></SiReaddotcv>
             </h2>
@@ -192,13 +190,15 @@ function AboutMe() {
               </div>
               <ul className="tasks">
                 <li>
-                  Excited to share that I will be joining the Faculty of Applied Sciences in May 2026 as an incoming 
+                  I'm excited to share that I will be joining the Faculty of Applied Sciences at UBC, starting in May 2026, as an incoming 
                   frontend web developer through the UBC WorkLearn program! 
-                  Here, I will help support the development and maintenance of web content using HTML, CSS, JavaScript on CMS platforms, 
+                  Here, I will help support the development and maintenance of web content using HTML, CSS, and JavaScript on CMS platforms, 
                   with a focus on responsive design, accessibility, and usability best practices. 
                 </li>
               </ul>
             </div>
+
+            <hr className="divider"></hr>
 
             <div>
               <h3 className="org">

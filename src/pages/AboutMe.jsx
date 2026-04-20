@@ -116,7 +116,8 @@ function AboutMe() {
               <div className="skill">
                 <h3 className="type">Frameworks/Libraries</h3>
                 <p className="list">
-                  Java Swing, JUnit Testing Framework, Tidyverse (ggplot2)
+                  Java Swing, JUnit Jupiter Testing Framework, Mockito,
+                  Tidyverse (ggplot2)
                 </p>
               </div>
 
@@ -138,7 +139,7 @@ function AboutMe() {
                 <h3 className="type">Cloud & Containerization Platforms</h3>
                 <p className="list">
                   Docker (+ Docker Desktop), JFrog Artifactory, Kubernetes,
-                  Amazon Web Services (ECS, EKS) - All currently acquiring,
+                  Amazon Web Services (ECR, EKS) - All currently acquiring,
                   Netlify
                 </p>
               </div>
@@ -171,29 +172,33 @@ function AboutMe() {
 
         <section ref={profexp}>
           <div className="professional-exp">
-
             <h2 className="title">
               Professional Experience<SiReaddotcv></SiReaddotcv>
             </h2>
 
             <div>
               <h3 className="org">
-                UBC Faculty of Applied Sciences - Front-End Web Developer (Incoming WorkLearn)
+                UBC Faculty of Applied Sciences - Front-End Web Developer
+                (Incoming WorkLearn)
               </h3>
               <div className="job-info">
                 <p>
                   <FaLocationDot className="logo"></FaLocationDot>Vancouver, BC
                 </p>
                 <p>
-                  <IoCalendarNumber className="logo"></IoCalendarNumber>Starting May 2026
+                  <IoCalendarNumber className="logo"></IoCalendarNumber>Starting
+                  May 2026
                 </p>
               </div>
               <ul className="tasks">
                 <li>
-                  I'm excited to share that I will be joining the Faculty of Applied Sciences at UBC, starting in May 2026, as an incoming 
-                  frontend web developer through the UBC WorkLearn program! 
-                  Here, I will help support the development and maintenance of web content using HTML, CSS, and JavaScript on CMS platforms, 
-                  with a focus on responsive design, accessibility, and usability best practices. 
+                  I'm excited to share that I will be joining the Faculty of
+                  Applied Sciences at UBC, starting in May 2026, as an incoming
+                  frontend web developer through the UBC WorkLearn program!
+                  Here, I will help support the development and maintenance of
+                  web content using HTML, CSS, and JavaScript on CMS platforms,
+                  with a focus on responsive design, accessibility, and
+                  usability best practices.
                 </li>
               </ul>
             </div>
@@ -216,22 +221,32 @@ function AboutMe() {
               </div>
               <ul className="tasks">
                 <li>
-                  Migrated 3 enterprise Java monolithic applications from
-                  Spring to Spring Boot by refactoring 20+ Maven dependencies,
-                  modernizing deprecated APIs and standardizing configurations,
-                  improving cloud deployment stability onto Amazon EKS
+                  Migrated 3 enterprise Java monoliths from Spring to Spring
+                  Boot, refactoring 20+ Maven dependencies and converting XML
+                  configurations (I.e., Spring Security) to Java-based configs,
+                  improving cloud deployment stability on Amazon EKS
                 </li>
                 <li>
-                  Resolved containerization failures by migrating JSP views to
-                  Thymeleaf, enabling automated Docker image builds with Bamboo,
-                  reducing build and debugging time by ~90% with artifacts
-                  published to JFrog/Amazon ECR
+                  Resolved containerization failures by replacing legacy JSP
+                  views with Thymeleaf, and automated Docker image builds with
+                  Bamboo CI/CD, reducing build and debugging time by over 90%
                 </li>
                 <li>
-                  Built a local knowledge repository using modern web standards
-                  (HTML, CSS, JavaScript), outlining migration and
-                  troubleshooting workflows, improving team onboarding
-                  efficiency and knowledge transfer
+                  Improved overall test coverage across applications from 76% to
+                  88% using Mockito and JUnit Jupiter with the addition of more
+                  comprehensive unit tests, improving confidence in application
+                  behaviour during migration
+                </li>
+                <li>
+                  Built a responsive internal knowledge repository using HTML5,
+                  CSS3, and JavaScript, outlining migration and troubleshooting
+                  workflows to improve team onboarding efficiency and knowledge
+                  transfer for a 20+ member team
+                </li>
+                <li>
+                  Contributed to an AWS Bedrock proof-of-concept to evaluate
+                  the usage of a multi-agent and human-in-the-loop validation
+                  workflow for automated logical data modelling
                 </li>
               </ul>
 

@@ -9,10 +9,10 @@ function ProjectFilterBar() {
     return (
         <div className="project-filter-ctn">
             <ul className="project-filter-list">
-                <li>All Projects</li>
-                <li>Academic Projects</li>
-                <li>Hackathon Projects</li>
-                <li>Personal Projects</li>
+                <li className="filter-link">All Projects</li>
+                <li className="filter-link">Academic Projects</li>
+                <li className="filter-link">Hackathon Projects</li>
+                <li className="filter-link">Personal Projects</li>
             </ul>
         </div>
     );

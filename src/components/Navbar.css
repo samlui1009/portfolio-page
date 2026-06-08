@@ -19,6 +19,7 @@
     width: 100%;    /* padding: 20px 18px; */
     font-size: 25px;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .navbar a {

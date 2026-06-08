@@ -51,13 +51,15 @@ function AboutMe() {
             </div>
             <p>Expected Graduation Date: May 2027</p>
             <p>
-              Relevant Coursework: Basic Algorithms & Data Structures, Software
-              Construction, Introduction to Data Science
+              Relevant Coursework: Applied Machine Learning, Basic Algorithms &
+              Data Structures, Software Construction, Introduction to Data
+              Science
             </p>
             <p>
               Extracurriculars: UBC BU1DL Fall 2025 Junior Mentor, UBC BCS 2025
               Cohort Support Hub Mentor, UBC Science Co-op Participant, UBC BCS
-              Tri-Mentorship Program Participant
+              Tri-Mentorship Program Participant, WorkLearn Student (Summer
+              2026)
             </p>
 
             <h3 className="school">British Columbia Institute of Technology</h3>
@@ -103,8 +105,7 @@ function AboutMe() {
               <div className="skill">
                 <h3 className="type">Programming Languages</h3>
                 <p className="list">
-                  Python (+ Tkinter), Java, JavaScript, C++, PowerShell
-                  (currently acquiring), SQL, R
+                  Python (+ Tkinter), Java, JavaScript, C++, SQL, R
                 </p>
               </div>
 
@@ -116,8 +117,7 @@ function AboutMe() {
               <div className="skill">
                 <h3 className="type">Frameworks/Libraries</h3>
                 <p className="list">
-                  Java Swing, JUnit Jupiter Testing Framework, Mockito,
-                  Tidyverse (ggplot2)
+                  Java Swing, JUnit, Mockito, Tidyverse (ggplot2)
                 </p>
               </div>
 
@@ -136,28 +136,25 @@ function AboutMe() {
               </div>
 
               <div className="skill">
-                <h3 className="type">Cloud & Containerization Platforms</h3>
+                <h3 className="type">Cloud & DevOps</h3>
                 <p className="list">
                   Docker (+ Docker Desktop), JFrog Artifactory, Kubernetes,
-                  Amazon Web Services (ECR, EKS) - All currently acquiring,
-                  Netlify
+                  Amazon Web Services (ECR, EKS) - All currently acquiring
                 </p>
               </div>
 
               <div className="skill">
                 <h3 className="type">Developer Tools</h3>
                 <p className="list">
-                  Git, GitHub, GitLab, Atlassian (Confluence, Bamboo, Jira),
-                  Vite, Postman, Jupyter Notebooks, Figma, Groq, Selenium
+                  GitLab, Bamboo, Jira, Vite, Postman, Jupyter Notebooks, Figma,
+                  Selenium
                 </p>
               </div>
 
               <div className="skill">
                 <h3 className="type">Enterprise Systems</h3>
                 <p className="list">
-                  Service Manager 9, Microsoft Azure (Active Directory, Mobile
-                  Device Management (MDM), Microsoft Endpoint Configuration
-                  Manager (SCCM))
+                  Service Manager 9, Microsoft Azure (AD, MDM, SCCM)
                 </p>
               </div>
 
@@ -192,13 +189,14 @@ function AboutMe() {
               </div>
               <ul className="tasks">
                 <li>
-                  I'm excited to share that I will be joining the Faculty of
-                  Applied Sciences at UBC, starting in May 2026, as an incoming
-                  frontend web developer through the UBC WorkLearn program!
-                  Here, I will help support the development and maintenance of
-                  web content using HTML, CSS, and JavaScript on CMS platforms,
-                  with a focus on responsive design, accessibility, and
-                  usability best practices.
+                  Support the maintenance and enhancement of 9 Drupal-based
+                  departmental websites, using DDEV local/staging deployment
+                  workflows to improve content presentation and usability
+                </li>
+                <li>
+                  Resolve frontend support Jira tickets involving Tailwind CSS
+                  UI adjustments, module updates, configuration synchronization
+                  and metadata mapping to support SEO and event discoverability
                 </li>
               </ul>
             </div>
@@ -244,8 +242,8 @@ function AboutMe() {
                   transfer for a 20+ member team
                 </li>
                 <li>
-                  Contributed to an AWS Bedrock proof-of-concept to evaluate
-                  the usage of a multi-agent and human-in-the-loop validation
+                  Contributed to an AWS Bedrock proof-of-concept to evaluate the
+                  usage of a multi-agent and human-in-the-loop validation
                   workflow for automated logical data modelling
                 </li>
               </ul>

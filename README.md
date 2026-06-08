@@ -115,4 +115,5 @@ The web application can be run on your local server by typing the command\
   <li>https://www.shecodes.io/athena/3020-how-to-use-hover-to-expand-a-button-in-css#:~:text=In%20CSS%2C%20you%20can%20make,can%20use%20the%20%3Ahover%20selector.&text=In%20this%20example%2C%20the%20transform,the%20mouse%20hovers%20over%20it</li>
   <li>https://stackoverflow.com/questions/19469495/css-slow-hover-effect</li>
   <li>https://stackoverflow.com/questions/60094612/how-would-i-push-the-button-to-the-bottom-of-the-css-flexbox-in-such-case</li>
+  <li>https://dev.to/laurentyson85/constructing-search-filter-functionality-in-react-dnd#:~:text=Filter%20functionality%20takes%20an%20onChange,Finally%2C%20remove%20the%20console%20log. (How to create a filtering search bar React component)</li>
 </ul>

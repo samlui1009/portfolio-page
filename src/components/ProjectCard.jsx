@@ -1,6 +1,5 @@
 import './ProjectCard.css';
 
-// Pass in data so that the Project Card component becomes reusable! 
 function ProjectCard({ title, image, type, description, url, stack }) {
 
     return(

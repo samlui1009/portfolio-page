@@ -1,9 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { FaAngleDoubleUp } from 'react-icons/fa';
 import './ScrollToTop.css';
-// Boilerplate taken from the extension, ES7+ React/Redux/React-Native snippets
-// Ensures that 'rafce' shortcut works
-// Imported the icon that I want for the top button
 
 const ScrollToTop = () => {
     const [showScrollTopButton, setShowScrollTopButton] = useState(false);
@@ -32,5 +29,3 @@ const ScrollToTop = () => {
 }
 
 export default ScrollToTop
-
-// YouTube reference: https://www.youtube.com/watch?v=oszUqCqTGHo&t=622s

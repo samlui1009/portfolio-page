@@ -1,15 +1,8 @@
 .thank-you-container {
     display: flex;
-    /* margin-top: 30px; */
     flex-direction: column;
     align-items: center;
     padding: 5px;
-    /* We do align-items, NOT justify-content  */
-    /* Because justify-content is for the MAIN axis (Across) */
-    /* Whereas align-items is for the COLUMN */
-    /* Flexbox also only aligns the elements, NOT the text inside them */
-    /* What we're doing here is: "Stack all child elements vertically, */
-    /* And then, center EACH entire box horizontally */
 }
 
 .contact-title {
@@ -21,13 +14,11 @@
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 40px;
-    /* By default: All paragraphs are text-align left */
 }
 
 .paragraph-2 {
     width: 900px;
     text-align: center;
-    /* Already works and is aligned center */
     font-size: 2.5rem;
     margin-bottom: 45px;
 }

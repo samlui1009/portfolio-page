@@ -7,9 +7,6 @@ function AboutMeNavBar({
     onScrollToVolunteer,
     onScrollToHobbies
 }) 
-// We want component to receive data or functions from the parent, which is 
-// in AboutMe.jsx, so we pass them in as props => Explicitly defined above 
-// Then used as "On Click" below
     {
         return (
     <>

@@ -27,7 +27,6 @@ function AboutMe() {
   return (
     <>
       <div>
-        <div>
           <AboutMeNavBar
             onScrollToEducation={() => scrollToSection(education)}
             onScrollToTech={() => scrollToSection(tech)}
@@ -35,7 +34,6 @@ function AboutMe() {
             onScrollToVolunteer={() => scrollToSection(volunteer)}
             onScrollToHobbies={() => scrollToSection(hobbies)}
           ></AboutMeNavBar>
-        </div>
 
         <section ref={education}>
           <div className="education">
@@ -49,9 +47,9 @@ function AboutMe() {
               </p>
               <p className="date">September 2024 - Present</p>
             </div>
-            <p>Expected Graduation Date: May 2027</p>
+            <p>Expected Graduation Date: December 2027</p>
             <p>
-              Relevant Coursework: Applied Machine Learning, Basic Algorithms &
+              Relevant Coursework: Applied Machine Learning, Computer Systems, Basic Algorithms &
               Data Structures, Software Construction, Introduction to Data
               Science
             </p>
@@ -59,7 +57,7 @@ function AboutMe() {
               Extracurriculars: UBC BU1DL Fall 2025 Junior Mentor, UBC BCS 2025
               Cohort Support Hub Mentor, UBC Science Co-op Participant, UBC BCS
               Tri-Mentorship Program Participant, WorkLearn Student (Summer
-              2026)
+              2026, Winter 2026/2027 Term 1)
             </p>
 
             <h3 className="school">British Columbia Institute of Technology</h3>
@@ -105,7 +103,7 @@ function AboutMe() {
               <div className="skill">
                 <h3 className="type">Programming Languages</h3>
                 <p className="list">
-                  Python (+ Tkinter), Java, JavaScript, C++, SQL, R
+                  Python (+ Tkinter), Java, JavaScript, SQL, R
                 </p>
               </div>
 
@@ -146,7 +144,7 @@ function AboutMe() {
               <div className="skill">
                 <h3 className="type">Developer Tools</h3>
                 <p className="list">
-                  GitLab, Bamboo, Jira, Vite, Postman, Jupyter Notebooks, Figma,
+                  GitLab, Bamboo, Jira, Vite, Postman, Jupyter Notebooks, Figma, Canva,
                   Selenium
                 </p>
               </div>
@@ -154,15 +152,9 @@ function AboutMe() {
               <div className="skill">
                 <h3 className="type">Enterprise Systems</h3>
                 <p className="list">
-                  Service Manager 9, Microsoft Azure (AD, MDM, SCCM)
+                  Service Manager 9, Microsoft Azure (AD, MDM, SCCM), LDAP
                 </p>
               </div>
-
-              {/* Temporarily removed - Does not appear relevant, add back in another time? */}
-              {/* <div className="skill">
-                            <h3 className="type">Laboratory-Related Technologies</h3>
-                            <p className="list">Leica CytoVision Automated Cell Imaging System, SeqPilot, GeneMapper, SHIRE (LIMS), SunQuest, Promega Maxwell RSC48</p>
-                        </div> */}
             </div>
           </div>
         </section>
@@ -175,8 +167,7 @@ function AboutMe() {
 
             <div>
               <h3 className="org">
-                UBC Faculty of Applied Sciences - Front-End Web Developer
-                (Incoming WorkLearn)
+                UBC Faculty of Applied Sciences - Front-End Developer
               </h3>
               <div className="job-info">
                 <p>
@@ -189,14 +180,19 @@ function AboutMe() {
               </div>
               <ul className="tasks">
                 <li>
-                  Support the maintenance and enhancement of 9 Drupal-based
-                  departmental websites, using DDEV local/staging deployment
-                  workflows to improve content presentation and usability
+                  Maintained and upgraded 9 Drupal 11 departmental websites,
+                  using DDEV local, staging and deployment environments to 
+                  deliver <b>25+</b> frontend enhancements, including Tailwind CSS
+                  modifications and module synchronizations
                 </li>
                 <li>
-                  Resolve frontend support Jira tickets involving Tailwind CSS
-                  UI adjustments, module updates, configuration synchronization
-                  and metadata mapping to support SEO and event discoverability
+                  Optimized technical SEO architecture by implementing a site-wide search feature using the <b>Drupal Search API</b> and 
+                  <b>Search 404</b> modules, mapping URL keywords against indexed content to redirect users 
+                  to relevant search results, maximizing visitor retention  
+                </li>
+                <li>
+                  Developed <b>3</b> custom <b>WordPress</b> websites for affiliated research groups and stakeholders, 
+                  translating proof-of-concept designs into responsive and acccessible webpages
                 </li>
               </ul>
             </div>
@@ -230,7 +226,7 @@ function AboutMe() {
                   Bamboo CI/CD, reducing build and debugging time by over 90%
                 </li>
                 <li>
-                  Improved overall test coverage across applications from 76% to
+                  Improved average test coverage across applications from 76% to
                   88% using Mockito and JUnit Jupiter with the addition of more
                   comprehensive unit tests, improving confidence in application
                   behaviour during migration
@@ -508,12 +504,12 @@ function AboutMe() {
                 Personal Interests<IoIosHappy></IoIosHappy>
               </h2>
               <p className="hobbies-description">
-                Outside of building projects, coding and studying, I often
-                invest my time in a wide array of hobbies, such as trying new
+                Outside of building projects, programming and studying, I often
+                invest my time in a wide array of hobbies. I enjoy trying new
                 restaurants, crocheting plushies and coasters, taking beautiful
                 pictures of nature and travelling (Tokyo, Kyoto, London,
                 Amsterdam and San Francisco are some of my favourite cities!).
-                Check out some of the fun things I do below!
+                Check out some of the fun things I've done below!
               </p>
               <div className="photo-album">
                 <PhotoAlbum />

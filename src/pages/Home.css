@@ -1,6 +1,3 @@
-/* Personal Note: Do NOT use import statements for assets 
-if they are for a CSS file! It doesn't work! */
-
 body {
     background-color: #e0d8d8;
 }

@@ -2,15 +2,15 @@ import "./ProjectGrid.css";
 
 import ProjectCard from "../components/ProjectCard.jsx";
 import PantryPal from "../assets/Individual-Project-Assets/pantrypal.jpg";
-import PLAI from "../assets/Individual-Project-Assets/plai-logo.png";
+import PLAI from "../assets/Individual-Project-Assets/plai.png";
 import Enduro from "../assets/Individual-Project-Assets/enduro.jpg";
-import DailySips from "../assets/Individual-Project-Assets/dailysips-logo.png";
-import Portfolio from "../assets/Individual-Project-Assets/portfolio-logo.png";
-import SipLy from "../assets/Individual-Project-Assets/SipLy-login.png";
-import AniMori from "../assets/Individual-Project-Assets/animori-logo.png";
+import DailySips from "../assets/Individual-Project-Assets/dailysips.png";
+import Portfolio from "../assets/Individual-Project-Assets/portfolio.png";
+import SipLy from "../assets/Individual-Project-Assets/siply.png";
+import AniMori from "../assets/Individual-Project-Assets/animori.png";
 import JobQuestAI from "../assets/Individual-Project-Assets/jobquest_ai.jpg";
 import OverHacked from "../assets/Individual-Project-Assets/overhacked-gamescene.png";
-import PassPing from "../assets/Individual-Project-Assets/passping-logo.png";
+import PassPing from "../assets/Individual-Project-Assets/passping.jpg";
 import CommunityPulse from "../assets/Individual-Project-Assets/communitypulse.png";
 
 import ScrollToTop from "./ScrollToTop.jsx";

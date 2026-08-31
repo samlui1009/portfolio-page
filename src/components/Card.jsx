@@ -13,12 +13,12 @@ function Card() {
         <div className="card">
             <div className="intro-text">
                 <div className="txt-ctn">
-                    <p>💻 I am a current 3rd-year Bachelor of Computer Science second-degree student from the <b>University of British Columbia</b>, and current <b>Applied Cloud Architecture Developer Intern</b> with the <b>Canadian Institute for Health Information</b>. 
-                    (Previously associated with <b>Shared Services Canada</b> as an <b>I.T. Analyst intern</b>.)</p>
-                    <p>💭 My exposure into the inefficiencies experienced within public healthcare had motivated 
-                        my career transition. My current career goals are to eventually bring innovative, scalable solutions to the rapidly evolving 
-                        digital health spaces.</p>
-                    <p>💡 I'm always open to collaborations and chatting with other like-minded individuals about projects, hobbies and favourite bubble tea places (My personal favourite: <b><a href="https://www.yifangtea.com/" target="_blank" className="yifang-link">YiFang Fruit Tea)</a></b> 🧋
+                    <p>💻 It's nice to meet you! I'm a current 3rd-year Bachelor of Computer Science second-degree student from the <b>University of British Columbia</b>. 
+                    I was previously associated with the <b>Canadian Institute for Health Information</b> as an <b>Applied Cloud Architecture Developer Intern</b>, 
+                    as well as <b>Shared Services Canada</b> as an <b>I.T. Analyst co-op student</b>.</p>
+                    <p>💭 My journey into tech has definitely not been linear. My previous exposure into the inefficiencies experienced after working in public healthcare had inspired 
+                        my career transition. I hope to one day help bring innovative, scalable solutions that can help improve workflow processes and large-scale systems.</p>
+                    <p>💡 Feel free to chat with me about projects, video games and favourite bubble tea places (My personal favourite: <b><a href="https://www.yifangtea.com/" target="_blank" className="yifang-link">YiFang Fruit Tea)</a></b> 🧋.
                     </p>
                 </div>
                 </div>

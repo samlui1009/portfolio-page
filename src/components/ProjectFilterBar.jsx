@@ -1,6 +1,3 @@
-// We'll also need useEffect and useState eventually
-// Pass state from parent component of the page so it conditionally renders what we want?
-
 import React from 'react';
 import './ProjectFilterBar.css';
 

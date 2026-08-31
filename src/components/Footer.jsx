@@ -1,15 +1,11 @@
-import './Footer.css';
+import "./Footer.css";
 
 function Footer() {
-    return(
-        <footer>
-            <div className = "footer">
-            <p>
-                &copy; {new Date().getFullYear()} Sam Lui
-            </p>
-            </div>
-        </footer>
-    );
-}   
+  return (
+    <footer>
+      <div className="footer">&copy; {new Date().getFullYear()} Sam Lui</div>
+    </footer>
+  );
+}
 
-export default Footer
+export default Footer;

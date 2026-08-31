@@ -55,7 +55,7 @@
 
 .technical-skills .skills-columns {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Creates two columns of equal width (1 fraction each) */
+    grid-template-columns: 1fr 1fr; 
     margin-top: 2rem;
     gap: 30px;
 }
@@ -217,5 +217,3 @@
     border-radius: 5px;
     border-top: 2px solid;
 }
-
-/* https://stackoverflow.com/questions/68591441/how-to-show-half-transparent-div-in-react */
